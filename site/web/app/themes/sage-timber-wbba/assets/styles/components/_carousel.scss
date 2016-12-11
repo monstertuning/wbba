@@ -1,0 +1,23 @@
+.carousel{
+	.image{
+
+
+		@media (min-width: $screen-lg) {
+			padding-left: 0;
+		}
+
+
+		img{
+			margin: auto;
+		}
+	}
+
+	.text{
+
+		@media (min-width: $screen-lg) {
+			text-align: left;
+		}
+
+	}
+
+}

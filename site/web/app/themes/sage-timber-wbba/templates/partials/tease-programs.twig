@@ -1,0 +1,13 @@
+<a href="{{ post.link }}">              
+    <div>
+        {% if post.get_thumbnail %}
+	        <div class="image">
+	            <img src="{{ post.thumbnail.src|resize(100, 100) }}" class="img-responsive" alt="Image for {{ post.title }}" /> 
+	        </div>
+    	{% endif %}
+        <h3 class="title title-posts title-{{ post_type }}">
+            {{ post.post_title }}
+        </h3>
+		{# <div class="tease-text">{{post.get_preview(40, false, false)}}<span class="read-more">Read More</span></div> #}
+    </div>
+</a>

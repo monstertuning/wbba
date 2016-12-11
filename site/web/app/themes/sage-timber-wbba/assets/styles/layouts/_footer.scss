@@ -1,0 +1,22 @@
+footer{
+
+	background-color: $color-black;
+	//height: 100px;
+	padding: 10px 0;
+	color: $color-white;
+
+	.wrap{
+		width: 100%;
+		padding: 10px 0;
+
+		.trademark{
+			text-align: center;
+		}
+		
+		.address{
+			text-align: center;
+		}
+
+	}
+
+}

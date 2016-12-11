@@ -1,0 +1,80 @@
+<header>
+    <div class="container">
+
+        <div class="col-sm-3">
+
+            <div class="tagline">{{ tagline }}</div>
+            <div class="phone1">{{ phone1 }}</div>
+
+        </div>
+
+
+        <div class="col-sm-6">
+
+            <div id="header-image-wrap">                        
+                <div id="header-image">
+                    <a href="{{ site.url }}">
+                        {{ site_logo }}
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-sm-3 text-right">
+
+            <div class="social-icons ">
+                
+                {% for social_link in social_links %}
+
+                    <div class="icon-item">
+                        <a href="{{ social_link.link_url }}" target="_blank">
+                            <i class="{{ social_link.css_classes }}"></i>
+                        </a>
+                    </div>    
+
+                {% endfor %}
+
+            </div>
+            
+        </div>
+
+    </div>
+
+    {# <div class="container">
+        menu:
+        {{primary_menu}}
+        end
+    </div> #}
+
+
+    <div class="container main-menu-container">
+        <div class="main-nav-wrapper">
+
+            <nav class="navbar navbar-default" role="navigation">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                        {# <a class="navbar-brand">
+                            test
+                        </a> #}
+
+                        {{ primary_menu }}
+
+                    </div>
+
+            </nav>
+
+        </div>
+    </div>
+
+</header>

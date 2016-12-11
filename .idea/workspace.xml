@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c4bacd1-1600-45b5-a5da-fcc9c62ee2f8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/trellis/deploy.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/trellis/lib/trellis/plugins/vars/vars.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/trellis/roles/php/templates/xdebug.ini.j2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/trellis/windows.sh" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/trellis/.github/ISSUE_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/CHANGELOG.md" afterPath="$PROJECT_DIR$/trellis/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/README.md" afterPath="$PROJECT_DIR$/trellis/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/Vagrantfile" afterPath="$PROJECT_DIR$/trellis/Vagrantfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/deploy-hooks/build-before.yml" afterPath="$PROJECT_DIR$/trellis/deploy-hooks/build-before.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/dev.yml" afterPath="$PROJECT_DIR$/trellis/dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/group_vars/all/main.yml" afterPath="$PROJECT_DIR$/trellis/group_vars/all/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/group_vars/all/users.yml" afterPath="$PROJECT_DIR$/trellis/group_vars/all/users.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/group_vars/development/mail.yml" afterPath="$PROJECT_DIR$/trellis/group_vars/development/mail.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/group_vars/development/php.yml" afterPath="$PROJECT_DIR$/trellis/group_vars/development/php.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/group_vars/development/vault.yml" afterPath="$PROJECT_DIR$/trellis/group_vars/development/vault.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml" afterPath="$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/group_vars/production/vault.yml" afterPath="$PROJECT_DIR$/trellis/group_vars/production/vault.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml" afterPath="$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/hosts/production" afterPath="$PROJECT_DIR$/trellis/hosts/production" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/lib/trellis/plugins/callback/output.py" afterPath="$PROJECT_DIR$/trellis/lib/trellis/plugins/callback/output.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/lib/trellis/utils/output.py" afterPath="$PROJECT_DIR$/trellis/lib/trellis/utils/output.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/requirements.yml" afterPath="$PROJECT_DIR$/trellis/requirements.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/common/defaults/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/common/defaults/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/common/tasks/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/common/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/deploy/hooks/build-after.yml" afterPath="$PROJECT_DIR$/trellis/roles/deploy/hooks/build-after.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/fail2ban/README.md" afterPath="$PROJECT_DIR$/trellis/roles/fail2ban/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/fail2ban/defaults/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/fail2ban/defaults/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/mariadb/defaults/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/mariadb/defaults/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/mariadb/tasks/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/mariadb/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/nginx/templates/nginx.conf.j2" afterPath="$PROJECT_DIR$/trellis/roles/nginx/templates/nginx.conf.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/php/defaults/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/php/defaults/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/php/tasks/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/php/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/php/templates/php.ini.j2" afterPath="$PROJECT_DIR$/trellis/roles/php/templates/php.ini.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/remote-user/tasks/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/remote-user/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/wordpress-install/tasks/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/wordpress-install/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/wordpress-setup/defaults/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/wordpress-setup/defaults/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/wordpress-setup/tasks/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/wordpress-setup/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/wordpress-setup/tasks/nginx.yml" afterPath="$PROJECT_DIR$/trellis/roles/wordpress-setup/tasks/nginx.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/wordpress-setup/templates/wordpress-site.conf.j2" afterPath="$PROJECT_DIR$/trellis/roles/wordpress-setup/templates/wordpress-site.conf.j2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trellis/roles/wp-cli/defaults/main.yml" afterPath="$PROJECT_DIR$/trellis/roles/wp-cli/defaults/main.yml" />
+    </list>
+    <ignored path="wbba.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="wbba" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="wordpress_sites.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trellis/group_vars/all/users.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vault.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trellis/group_vars/all/vault.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordpress_sites.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trellis/group_vars/staging/wordpress_sites.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordpress_sites.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml" />
+        <option value="$PROJECT_DIR$/trellis/group_vars/staging/wordpress_sites.yml" />
+        <option value="$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml" />
+        <option value="$PROJECT_DIR$/trellis/group_vars/all/users.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/site/web/app/themes/sage/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1356" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trellis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trellis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group_vars" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staging" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trellis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group_vars" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trellis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group_vars" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trellis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group_vars" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c4bacd1-1600-45b5-a5da-fcc9c62ee2f8" name="Default" comment="" />
+      <created>1481108501578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481108501578</updated>
+      <workItem from="1481108528048" duration="595000" />
+      <workItem from="1481110608053" duration="1639000" />
+      <workItem from="1481119579854" duration="247000" />
+      <workItem from="1481157001086" duration="599000" />
+      <workItem from="1481159841678" duration="328000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3408000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1356" height="745" extended-state="4" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2633997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/all/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/staging/wordpress_sites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/production/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/all/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/all/vault.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/staging/wordpress_sites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
