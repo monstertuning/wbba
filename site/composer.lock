@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6c1dead426e747baa4b4e3a66a099239",
-    "content-hash": "3e2d78971a3712df9669efc98c56d915",
+    "hash": "640eeb106447d74f8b212e7fd4bc3fa9",
+    "content-hash": "295fef0cc04f05377c35412ccc168944",
     "packages": [
         {
             "name": "A5hleyRich/wp-cli-unsplash-command",
@@ -269,20 +269,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.6.1",
+            "version": "4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3"
+                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
-                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b327faa6feea3a4058178dee7ac8b512bd957e92",
+                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92",
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "http://lc-toran.co.uk/repo/packagist/dists/%package%/%version%/%reference%.%type%",
+                        "url": "http://www.lc-toran.co.uk/repo/packagist/dists/%package%/%version%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -311,7 +311,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-09-07 15:01:47"
+            "time": "2016-12-06 18:46:46"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -532,16 +532,67 @@
             "time": "2015-05-30 16:15:01"
         },
         {
+            "name": "wp-plugin-repo-pro/wp-migrate-db-pro",
+            "version": "1.6.1",
+            "dist": {
+                "type": "zip",
+                "url": "http://plugins.lc-toran.co.uk/wp-migrate-db-pro-1.6.1.zip",
+                "reference": null,
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://lc-toran.co.uk/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wp-plugin-repo-pro/wp-migrate-db-pro-cli",
+            "version": "1.2.5",
+            "dist": {
+                "type": "zip",
+                "url": "http://plugins.lc-toran.co.uk/wp-migrate-db-pro-cli-1.2.5.zip",
+                "reference": null,
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://lc-toran.co.uk/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wp-plugin-repo-pro/wp-migrate-db-pro-media-files",
+            "version": "1.4.5",
+            "dist": {
+                "type": "zip",
+                "url": "http://plugins.lc-toran.co.uk/wp-migrate-db-pro-media-files-1.4.5.zip",
+                "reference": null,
+                "shasum": null,
+                "mirrors": [
+                    {
+                        "url": "http://lc-toran.co.uk/repo/private/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "wpackagist-plugin/codepress-admin-columns",
-            "version": "2.5.6.3",
+            "version": "2.5.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/codepress-admin-columns/",
-                "reference": "tags/2.5.6.3"
+                "reference": "tags/2.5.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/codepress-admin-columns.2.5.6.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/codepress-admin-columns.2.5.6.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -573,15 +624,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-comments",
-            "version": "1.5.2",
+            "version": "1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-comments/",
-                "reference": "tags/1.5.2"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-comments.1.5.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -593,15 +644,15 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "2.6",
+            "version": "3.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/2.6"
+                "reference": "tags/3.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.2.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.0.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -653,15 +704,15 @@
         },
         {
             "name": "wpackagist-plugin/formidable",
-            "version": "2.02.06",
+            "version": "2.02.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/formidable/",
-                "reference": "tags/2.02.06"
+                "reference": "tags/2.02.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/formidable.2.02.06.zip",
+                "url": "https://downloads.wordpress.org/plugin/formidable.2.02.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -673,15 +724,15 @@
         },
         {
             "name": "wpackagist-plugin/kirki",
-            "version": "2.3.6",
+            "version": "2.3.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kirki/",
-                "reference": "tags/2.3.6"
+                "reference": "tags/2.3.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kirki.2.3.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/kirki.2.3.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -773,15 +824,15 @@
         },
         {
             "name": "wpackagist-plugin/post-types-order",
-            "version": "1.8.9.2",
+            "version": "1.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/post-types-order/",
-                "reference": "tags/1.8.9.2"
+                "reference": "tags/1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-types-order.1.8.9.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/post-types-order.1.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -813,15 +864,15 @@
         },
         {
             "name": "wpackagist-plugin/rvg-optimize-database",
-            "version": "4.2.0",
+            "version": "4.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/rvg-optimize-database/",
-                "reference": "tags/4.2.0"
+                "reference": "tags/4.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rvg-optimize-database.4.2.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/rvg-optimize-database.4.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -853,15 +904,15 @@
         },
         {
             "name": "wpackagist-plugin/timber-library",
-            "version": "1.1.6",
+            "version": "1.1.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/timber-library/",
-                "reference": "tags/1.1.6"
+                "reference": "tags/1.1.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/timber-library.1.1.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.1.1.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -873,15 +924,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-maintenance-mode",
-            "version": "2.0.8",
+            "version": "2.0.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-maintenance-mode/",
-                "reference": "tags/2.0.8"
+                "reference": "tags/2.0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-maintenance-mode.2.0.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-maintenance-mode.2.0.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -895,15 +946,15 @@
     "packages-dev": [
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.13.1"
+                "reference": "tags/2.13.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.13.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.13.2.zip",
                 "reference": null,
                 "shasum": null
             },

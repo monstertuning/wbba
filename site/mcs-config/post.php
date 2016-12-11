@@ -59,6 +59,7 @@ $config = array( );
 		#'taxonomies' => null,
 		#'query_var' => 'News Articles',
 		'can_export' => true,
+        'show_in_rest' => true,
 
 	);
 
@@ -229,8 +230,10 @@ $config = array( );
 		#'taxonomies' => null,
 		#'query_var' => 'Coaches',
 		'can_export' => true,
+        'show_in_rest' => true,
 
-	);
+
+    );
 
 	$types = 'coaches';
 	
@@ -314,8 +317,10 @@ $config = array( );
 		#'taxonomies' => null,
 		#'query_var' => 'Coaches',
 		'can_export' => true,
+        'show_in_rest' => true,
 
-	);
+
+    );
 
 	$types = 'fighters';
 	
