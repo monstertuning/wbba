@@ -21,6 +21,7 @@ $args = array(
 
 $news_articles = query_posts( $args );
 
+//var_dump($news_articles);
 
 if( ! empty( $news_articles ) ) :
 
@@ -43,9 +44,6 @@ endif;
 
 
 
-
-
-
 $args = array( 
 	'posts_per_page' => 5, 
 	'post_type' => 'programs',
@@ -53,6 +51,7 @@ $args = array(
 
 $programs = query_posts( $args );
 
+$programs2=[];
 $x = 0;
 
 if( ! empty( $programs ) ) :
@@ -66,12 +65,8 @@ if( ! empty( $programs ) ) :
 	endforeach;
 
 	$context['programs'] = $programs2;
-
+    //var_dump($programs2);
 endif;
-
-
-
-
 
 
 

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "640eeb106447d74f8b212e7fd4bc3fa9",
-    "content-hash": "295fef0cc04f05377c35412ccc168944",
+    "hash": "bbe13e512197a787f5ed1cae86237df7",
+    "content-hash": "2a53a72be33d617e5f183bbeec4872db",
     "packages": [
         {
             "name": "A5hleyRich/wp-cli-unsplash-command",
@@ -904,15 +904,15 @@
         },
         {
             "name": "wpackagist-plugin/timber-library",
-            "version": "1.1.11",
+            "version": "1.1.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/timber-library/",
-                "reference": "tags/1.1.11"
+                "reference": "tags/1.1.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/timber-library.1.1.11.zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.1.1.12.zip",
                 "reference": null,
                 "shasum": null
             },
