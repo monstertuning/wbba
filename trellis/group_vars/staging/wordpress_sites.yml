@@ -5,7 +5,7 @@
 wordpress_sites:
   walsallkickboxing.co.uk:
     site_hosts:
-      - canonical: wbba-test.medusamediacreations.com
+      - canonical: wbba.thewestisthebest.co.uk
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)

@@ -112,10 +112,12 @@ function add_to_context( $data ) {
 
   $programs = query_posts( $args );
 
-  wp_reset_query( );
+    wp_reset_query( );
 
-  $programs2 = array( );
+    wp_reset_postdata();
 
+    $programs_left = [];
+    $programs_right = [];
   $x = 0;
 
   if( ! empty( $programs ) ) :

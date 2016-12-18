@@ -4,6 +4,7 @@ use Roots\Sage\Setup;
 use MedusaContentSuite\Functions\Common as Common;
 use MedusaContentSuite\CMB\Meta\PostMeta as PostMeta;
 
+//use Timber
 
 /**
  * Timber
@@ -60,8 +61,13 @@ if ( ! class_exists( 'Timber' ) ) {
 
 class TimberPostMcs extends TimberPost
 {
-    public function __construct( $post= null )
+
+    protected $timberPostMcs;
+
+    public function __construct( $post = null )
     {
+        $post2 = null;
+
         $pt = get_post_type( $post );
 
         if ( empty( $pt ) ) :
@@ -71,19 +77,23 @@ class TimberPostMcs extends TimberPost
         $fieldNames = PostMeta::getMetaBoxFieldNames( $pt );
         $fieldMeta = PostMeta::getMetaValues( $fieldNames, '_cmb_' );
 
+        var_dump($fieldNames);
+        var_dump($fieldMeta);
+
         if( ! empty( $fieldMeta ) ) :
+
             foreach( $fieldMeta as $k => $v ) :
-                $post->$k = $v;
+
+                echo $k . " -- " . $v . "<br>";
+                $post2->{$k} = $v;
             endforeach;
-            
-            $post->post_meta = $fieldMeta; 
+
+            $post_meta = new stdClass();
+
+            $post2->{$post_meta} = $fieldMeta;
+
         endif;
 
-        parent::__construct( $post );
+        parent::__construct( $post2 );
     }
 }
-
-
-
-
-

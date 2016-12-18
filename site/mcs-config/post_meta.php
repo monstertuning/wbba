@@ -37,31 +37,81 @@ $config = array();
 
 
 
+    #_cmb_photo_gallery_options_
+
+    $prefix = '_cmb_photo_gallery_options_';
+    $config[]=array(
+        'id' => 'metabox_photo_gallery_options',
+        'prefix' => $prefix,
+        'title' => 'Photo Gallery Details',
+        'object_types' => array( 'photo_galleries' ), // post type
+        'context' => 'normal',
+        'priority' => 'low',
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+
+            array(
+                'name'    => 'Description',
+                'desc'    => 'Type your description for the photo galleries',
+                'id'      => 'description',
+                'type'    => 'wysiwyg',
+                'options' => array(
+                    'wpautop' => true,
+                    'media_buttons' => false,
+                    'textarea_name' => 'sdfgh',#$editor_id,
+                    'textarea_rows' => get_option('default_post_edit_rows', 10), // rows="..."
+                    'tabindex' => '',
+                    'editor_css' => '',
+                    'editor_class' => '',
+                    'teeny' => false,
+                    'dfw' => false,
+                    'tinymce' => true,
+                    'quicktags' => true
+                ),
+            ),
+        )
+    );
+
+
+
+
 	#_cmb_news_article_options_
 
 		$prefix = '_cmb_news_article_options_';
 		$config[]=array(
-			'id' => 'metabox_news_article_options',
-			'prefix' => $prefix,
-			'title' => 'News Article Details',
-			'object_types' => array( 'news_articles' ), // post type
-			'context' => 'normal',
-			'priority' => 'low',
-			'show_names' => true, // Show field names on the left
-			'fields' => array(
+            'id' => 'metabox_news_article_options',
+            'prefix' => $prefix,
+            'title' => 'News Article Details',
+            'object_types' => array( 'news_articles' ), // post type
+            'context' => 'normal',
+            'priority' => 'low',
+            'show_names' => true, // Show field names on the left
+            'fields' => array(
 
-				array(
-					'name' => 'Featured News Article?',
-					'desc' => 'Select if you would like this article to feature on the home page',
-					'id' => $prefix . 'featured_news_article',
-					'type'    => 'select',
-					'options' => array(
-						'no' => __( 'No', 'cmb2' ),
-						'yes'   => __( 'Yes', 'cmb2' ),
-					),
-				),
-			)
-		);
+                array(
+                    'name' => 'Featured News Article?',
+                    'desc' => 'Select if you would like this article to feature on the home page',
+                    'id' => $prefix . 'featured_news_article',
+                    'type'    => 'select',
+                    'options' => array(
+                        'no' => __( 'No', 'cmb2' ),
+                        'yes'   => __( 'Yes', 'cmb2' ),
+                    ),
+                ),
+
+                array(
+                    'name' => 'Related Galleries',
+                    'desc' => 'Choose Related Galleries',
+                    'id' => $prefix . 'related_galleries',
+                    'type' => 'post_search_text',
+                    //'sanitization_cb' => 'pw_select2_sanitise',
+                    'post_type'   => 'photo_galleries',
+                    'select_type' => 'radio',
+                    'select_behavior' => 'replace',
+                ),
+
+            )
+        );
 
 
 

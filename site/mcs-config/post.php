@@ -42,7 +42,7 @@ $config = array( );
 		'description'   => 'Holds our News Articles and News Articles data',
 		'public'        => true,
 		'menu_position' => 20,
-		'supports'      => array( 'title', 'editor', 'attributes', 'thumbnail', 'author' ), //'excerpt', , 'comments', 'page-attributes'
+		'supports'      => array( 'title', 'editor', 'attributes', 'thumbnail', 'author'), //'excerpt', , 'comments', 'page-attributes'
 		'has_archive'   => 'news_article',
 		'hierarchical' => false,
 		'exclude_from_search' => false,
@@ -56,7 +56,7 @@ $config = array( );
 		#'capabilities' => null,
 		#'map_meta_cap' => null,
 		#'register_meta_box_cb' => null,
-		#'taxonomies' => null,
+		'taxonomies' => array('category', 'post_tag'),
 		#'query_var' => 'News Articles',
 		'can_export' => true,
         'show_in_rest' => true,
@@ -128,7 +128,7 @@ $config = array( );
 		'description'   => 'Holds our Photo Galleries and Photo Galleries data',
 		'public'        => true,
 		'menu_position' => 20,
-		'supports'      => array( 'title', 'editor', 'attributes', 'thumbnail', 'author' ), //'excerpt', , 'comments', 'page-attributes'
+		'supports'      => array( 'title', 'editor', 'attributes', 'thumbnail', 'author', 'page-attributes' ), //'excerpt', , 'comments',
 		'has_archive'   => 'galleries',
 		'hierarchical' => true,
 		'exclude_from_search' => false,
@@ -596,9 +596,6 @@ $config = array( );
 	);
 
 	$config[] = array ( 'args' => $args, 'types' => $types, 'extras' => $extras );
-
-
-
 
 
 
