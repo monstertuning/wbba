@@ -31,3 +31,14 @@ function excerpt_more() {
   return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
 }
 add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
+
+
+
+
+
+function localizeBgImage($localize) {
+  //write_log( get_option( 'sage-timber-wbba-bg-image' ) );
+  $localize['bg_image'] = get_option( 'bg_image' );
+  return $localize;
+}
+add_filter('roots_localize_script', __NAMESPACE__ . '\\localizeBgImage');
