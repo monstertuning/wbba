@@ -1,0 +1,27 @@
+- 'name': 'Photo Gallery Options'
+  'id': 'metabox_photo_gallery_options'
+  'prefix': '_cmb_photo_gallery_options_'
+  'title': 'Photo Gallery Details'
+  'object_types':
+    'photo_galleries': 'photo_galleries'
+  'context': 'normal'
+  'priority': 'low'
+  'show_names': true # Show field names on the left
+  'fields':
+    'field1':
+      'name': 'Description'
+      'desc': 'Type your description for the photo galleries'
+      'id': 'description'
+      'type': 'wysiwyg'
+      'options':
+        'wpautop': true
+        'media_buttons': false
+        'textarea_name': 'sdfgh' #$editor_id
+        'textarea_rows': 10 #get_option('default_post_edit_rows', 10) # rows="..."
+        'tabindex': ''
+        'editor_css': ''
+        'editor_class': ''
+        'teeny': false
+        'dfw': false
+        'tinymce': true
+        'quicktags': true

@@ -70,7 +70,7 @@ if( ! empty( $programs ) ) :
 	endforeach;
 
 	$context['programs'] = $programs2;
-    var_dump($programs2);
+    #var_dump($programs2);
 endif;
 
 

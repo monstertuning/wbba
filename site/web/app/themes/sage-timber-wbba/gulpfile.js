@@ -209,7 +209,7 @@ gulp.task('fonts', function() {
     .pipe(browserSync.stream());
 });
 
-// ### Images
+// ### Media
 // `gulp images` - Run lossless compression on all the images.
 gulp.task('images', function() {
   return gulp.src(globs.images)

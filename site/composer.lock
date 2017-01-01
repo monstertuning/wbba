@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "007eedfcdee215bb9cb69cdf819c7487",
-    "content-hash": "de7634d587bdeb892adcf74c39b756be",
+    "hash": "0f5b330fbe01b85ed839e23dcb636ca1",
+    "content-hash": "23863e2d6ce4fb2342408b4cfd70fc4f",
     "packages": [
         {
             "name": "A5hleyRich/wp-cli-unsplash-command",
@@ -254,18 +254,18 @@
             "time": "2016-10-03 15:58:42"
         },
         {
-            "name": "jajouka79/medusa-content-suite",
+            "name": "jajouka/medusa-content-suite",
             "version": "dev-master",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/jajouka79/medusa-content-suite/archive/master.zip",
-                "reference": null,
-                "shasum": null
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:jajouka/medusa-content-suite.git",
+                "reference": "master"
             },
             "require": {
                 "composer/installers": "~1.0.12"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2016-12-19 23:49:54"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -282,7 +282,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "http://www.lc-toran.co.uk/repo/packagist/dists/%package%/%version%/%reference%.%type%",
+                        "url": "http://lc-toran.co.uk/repo/packagist/dists/%package%/%version%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -292,9 +292,6 @@
                 "php": ">=5.3.2"
             },
             "type": "wordpress-core",
-            "extra": {
-                "patches_applied": []
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
@@ -861,7 +858,7 @@
         },
         {
             "name": "wpackagist-plugin/press-permit-core",
-            "version": "2.3.15",
+            "version": "2.3.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/press-permit-core/",
@@ -1047,12 +1044,12 @@
             "alias": "1.0.x-dev",
             "alias_normalized": "1.0.9999999.9999999-dev",
             "version": "9999999-dev",
-            "package": "jajouka79/medusa-content-suite"
+            "package": "jajouka/medusa-content-suite"
         }
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "jajouka79/medusa-content-suite": 20,
+        "jajouka/medusa-content-suite": 20,
         "jajouka/lc-ajax-loader": 20,
         "a5hleyrich/wp-cli-unsplash-command": 20
     },

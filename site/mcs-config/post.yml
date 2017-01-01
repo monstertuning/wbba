@@ -1,0 +1,526 @@
+- 'name': 'News Article'
+  'args':
+    'labels':
+      'name': 'News Articles'
+      'singular_name': 'News Article'
+      'add_new': 'Add New'
+      'add_new_item': 'Add New News Article'
+      'edit_item': 'Edit News Article'
+      'new_item': 'New News Article'
+      'all_items': 'All News Articles'
+      'view_item': 'View News Article'
+      'not_found': 'No News Articles entry found'
+      'not_found_in_trash': 'No News Articles entry found in the Trash'
+      'parent_item_colon': ''
+      'menu_name': 'News Articles'
+    'rewrite':
+      'slug': 'news_article'
+      'with_front': true
+      'feed': true
+      'pages': true
+    'description': 'Holds our News Articles and News Articles data'
+    'public': true
+    'menu_position': 20
+    'supports':
+      'title': 'title'
+      'editor': 'editor'
+      'attributes': 'attributes'
+      'thumbnail': 'thumbnail'
+      'author': 'author'
+    'has_archive': 'news_article'
+    'hierarchical': false
+    'exclude_from_search': false
+    'publicly_queryable': true
+    'show_ui': true
+    'show_in_menu': true
+    'show_in_admin_bar': true
+    'show_in_nav_menus': true
+    'menu_icon': 'dashicons-admin-page'
+#    'capability_type': 'news_article'
+#    'capabilities':
+#      'news_article': 'news_article'
+    'map_meta_cap': true
+    'register_meta_box_cb': false
+    'taxonomies':
+      'category': 'category'
+      'post_tag': 'post_tag'
+    'query_var': 'news_article'
+    'can_export': true
+    'show_in_rest': true
+  'type': 'news_article'
+  'extras':
+    'sidebars': false
+    'mu_main_site_only': false
+    'sub_site_only': false
+    'columns': false
+    'default_category_tax': true
+    'show_in_nav_menu': true
+    'nav_menu_position': 1
+    'show_posts_in_nav_menu': true
+    'create_dummy_posts': false
+    'url_query_vars': 'news_article'
+    'can_export': true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 'name': 'Photo Galleries'
+  'args':
+    'labels':
+      'name': 'Photo Galleries'
+      'singular_name': 'Photo Gallery'
+      'add_new': 'Add New'
+      'add_new_item': 'Add New Photo Gallery'
+      'edit_item': 'Edit Photo Gallery'
+      'new_item': 'New Photo Gallery'
+      'all_items': 'All Photo Galleries'
+      'view_item': 'View Photo Gallery'
+      'not_found': 'No Photo Gallery entry found'
+      'not_found_in_trash': 'No Photo Galleries entry found in the Trash'
+      'parent_item_colon': ''
+      'menu_name': 'Photo Galleries'
+    'rewrite':
+      'slug': 'photo_gallery'
+      'with_front': true
+      'feed': true
+      'pages': true
+    'description': 'Holds our Photo Galleries and Photo Galleries data'
+    'public': true
+    'menu_position': 20
+    'supports':
+      'title': 'title'
+      'editor': 'editor'
+      'attributes': 'attributes'
+      'thumbnail': 'thumbnail'
+      'author': 'author'
+      'page-attributes': 'page-attributes'
+    'has_archive': 'photo_gallery'
+    'hierarchical': false
+    'exclude_from_search': false
+    'publicly_queryable': true
+    'show_ui': true
+    'show_in_menu': true
+    'show_in_admin_bar': true
+    'show_in_nav_menus': true
+    'menu_icon': 'dashicons-admin-page'
+#    'capability_type': 'photo_gallery'
+#    'capabilities':
+#      'photo_gallery': 'photo_gallery'
+    'map_meta_cap': true
+    'register_meta_box_cb': false
+    'taxonomies':
+      'category': 'category'
+      'post_tag': 'post_tag'
+    'query_var': 'photo_gallery'
+    'can_export': true
+    'show_in_rest': true
+  'type': 'photo_gallery'
+  'extras':
+    'sidebars': false
+    'mu_main_site_only': false
+    'sub_site_only': false
+    'columns': false
+    'default_category_tax': true
+    'show_in_nav_menu': true
+    'nav_menu_position': 1
+    'show_posts_in_nav_menu': true
+    'create_dummy_posts': false
+    'url_query_vars': 'photo_gallery'
+    'can_export': true
+
+
+
+
+
+
+
+
+
+
+
+
+- 'name': 'Coaches'
+  'args':
+    'labels':
+      'name': 'Coaches'
+      'singular_name': 'Coach'
+      'add_new': 'Add New'
+      'add_new_item': 'Add New Coach'
+      'edit_item': 'Edit Coach'
+      'new_item': 'New Coach'
+      'all_items': 'All Coaches'
+      'view_item': 'View Coach'
+      'not_found': 'No Coach entry found'
+      'not_found_in_trash': 'No Coaches entry found in the Trash'
+      'parent_item_colon': ''
+      'menu_name': 'Coaches'
+    'rewrite':
+      'slug': 'coach'
+      'with_front': true
+      'feed': true
+      'pages': true
+    'description': 'Holds our Coaches and Coaches data'
+    'public': true
+    'menu_position': 20
+    'supports':
+      'title': 'title'
+      'editor': 'editor'
+      'attributes': 'attributes'
+      #thumbnail': 'thumbnail'
+      'author': 'author'
+      'page-attributes': 'page-attributes'
+    'has_archive': 'coach'
+    'hierarchical': false
+    'exclude_from_search': false
+    'publicly_queryable': true
+    'show_ui': true
+    'show_in_menu': true
+    'show_in_admin_bar': true
+    'show_in_nav_menus': true
+    'menu_icon': 'dashicons-admin-page'
+#    'capability_type': 'coach'
+#    'capabilities':
+#      'coach': 'coach'
+    'map_meta_cap': true
+    'register_meta_box_cb': false
+    'taxonomies':
+      'category': 'category'
+      'post_tag': 'post_tag'
+    'query_var': 'coach'
+    'can_export': true
+    'show_in_rest': true
+  'type': 'coach'
+  'extras':
+    'sidebars': false
+    'mu_main_site_only': false
+    'sub_site_only': false
+    'columns': false
+    'default_category_tax': true
+    'show_in_nav_menu': true
+    'nav_menu_position': 1
+    'show_posts_in_nav_menu': true
+    'create_dummy_posts': false
+    'url_query_vars': 'coach'
+    'can_export': true
+
+
+
+
+
+
+
+
+
+
+
+- 'name': 'Fighter'
+  'args':
+    'labels':
+      'name': 'Fighter'
+      'singular_name': 'Fighter'
+      'add_new': 'Add New'
+      'add_new_item': 'Add New Fighter'
+      'edit_item': 'Edit Fighter'
+      'new_item': 'New Fighter'
+      'all_items': 'All Fighters'
+      'view_item': 'View Fighter'
+      'not_found': 'No Fighters found'
+      'not_found_in_trash': 'No Fighters found in the Trash'
+      'parent_item_colon': ''
+      'menu_name': 'Fighters'
+    'rewrite':
+      'slug': 'fighter'
+      'with_front': true
+      'feed': true
+      'pages': true
+    'description': 'Holds our Fighter and Fighter data'
+    'public': true
+    'menu_position': 20
+    'supports':
+      'title': 'title'
+      'editor': 'editor'
+      'attributes': 'attributes'
+      thumbnail': 'thumbnail'
+      'author': 'author'
+      'page-attributes': 'page-attributes'
+    'has_archive': 'fighter'
+    'hierarchical': false
+    'exclude_from_search': false
+    'publicly_queryable': true
+    'show_ui': true
+    'show_in_menu': true
+    'show_in_admin_bar': true
+    'show_in_nav_menus': true
+    'menu_icon': 'dashicons-admin-page'
+#    'capability_type': 'fighter'
+#    'capabilities':
+#      'fighter': 'fighter'
+    'map_meta_cap': true
+    'register_meta_box_cb': false
+    'taxonomies':
+      'category': 'category'
+      'post_tag': 'post_tag'
+    'query_var': 'fighter'
+    'can_export': true
+    'show_in_rest': true
+  'type': 'fighter'
+  'extras':
+    'sidebars': false
+    'mu_main_site_only': false
+    'sub_site_only': false
+    'columns': false
+    'default_category_tax': true
+    'show_in_nav_menu': true
+    'nav_menu_position': 1
+    'show_posts_in_nav_menu': true
+    'create_dummy_posts': false
+    'url_query_vars': 'fighter'
+    'can_export': true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 'name': 'Instructors'
+  'args':
+    'labels':
+      'name': 'Instructors'
+      'singular_name': 'Instructor'
+      'add_new': 'Add New'
+      'add_new_item': 'Add New Instructor'
+      'edit_item': 'Edit Instructor'
+      'new_item': 'New Instructor'
+      'all_items': 'All Instructors'
+      'view_item': 'View Instructor'
+      'not_found': 'No Instructor entry found'
+      'not_found_in_trash': 'No Instructors entry found in the Trash'
+      'parent_item_colon': ''
+      'menu_name': 'Instructors'
+    'rewrite':
+      'slug': 'instructor'
+      'with_front': true
+      'feed': true
+      'pages': true
+    'description': 'Holds our Instructors and Instructors data'
+    'public': true
+    'menu_position': 20
+    'supports':
+      'title': 'title'
+      'editor': 'editor'
+      'attributes': 'attributes'
+      thumbnail': 'thumbnail'
+      'author': 'author'
+      'page-attributes': 'page-attributes'
+    'has_archive': 'instructor'
+    'hierarchical': false
+    'exclude_from_search': false
+    'publicly_queryable': true
+    'show_ui': true
+    'show_in_menu': true
+    'show_in_admin_bar': true
+    'show_in_nav_menus': true
+    'menu_icon': 'dashicons-admin-page'
+#    'capability_type': 'instructor'
+#    'capabilities':
+#      'instructor': 'instructor'
+    'map_meta_cap': true
+    'register_meta_box_cb': false
+    'taxonomies':
+      'category': 'category'
+      'post_tag': 'post_tag'
+    'query_var': 'instructor'
+    'can_export': true
+    'show_in_rest': true
+  'type': 'instructor'
+  'extras':
+    'sidebars': false
+    'mu_main_site_only': false
+    'sub_site_only': false
+    'columns': false
+    'default_category_tax': true
+    'show_in_nav_menu': true
+    'nav_menu_position': 1
+    'show_posts_in_nav_menu': true
+    'create_dummy_posts': false
+    'url_query_vars': 'instructor'
+    'can_export': true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 'name': 'Programs'
+  'args':
+    'labels':
+      'name': 'Programs'
+      'singular_name': 'Program'
+      'add_new': 'Add New'
+      'add_new_item': 'Add New Program'
+      'edit_item': 'Edit Program'
+      'new_item': 'New Program'
+      'all_items': 'All Programs'
+      'view_item': 'View Program'
+      'not_found': 'No Program found'
+      'not_found_in_trash': 'No Programs found in the Trash'
+      'parent_item_colon': ''
+      'menu_name': 'Programs'
+    'rewrite':
+      'slug': 'program'
+      'with_front': true
+      'feed': true
+      'pages': true
+    'description': 'Holds our Programs and Programs data'
+    'public': true
+    'menu_position': 20
+    'supports':
+      'title': 'title'
+      'editor': 'editor'
+      'attributes': 'attributes'
+      #thumbnail': 'thumbnail'
+      'author': 'author'
+      'page-attributes': 'page-attributes'
+    'has_archive': 'program'
+    'hierarchical': false
+    'exclude_from_search': false
+    'publicly_queryable': true
+    'show_ui': true
+    'show_in_menu': true
+    'show_in_admin_bar': true
+    'show_in_nav_menus': true
+    'menu_icon': 'dashicons-admin-page'
+#    'capability_type': 'program'
+#    'capabilities':
+#      'program': 'program'
+    'map_meta_cap': true
+    'register_meta_box_cb': false
+    'taxonomies':
+      'category': 'category'
+      'post_tag': 'post_tag'
+    'query_var': 'program'
+    'can_export': true
+    'show_in_rest': true
+  'type': 'program'
+  'extras':
+    'sidebars': false
+    'mu_main_site_only': false
+    'sub_site_only': false
+    'columns': false
+    'default_category_tax': true
+    'show_in_nav_menu': true
+    'nav_menu_position': 1
+    'show_posts_in_nav_menu': true
+    'create_dummy_posts': false
+    'url_query_vars': 'program'
+    'can_export': true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 'name': 'Testimonials'
+  'args':
+    'labels':
+      'name': 'Testimonials'
+      'singular_name': 'Testimonial'
+      'add_new': 'Add New'
+      'add_new_item': 'Add New Testimonial'
+      'edit_item': 'Edit Testimonial'
+      'new_item': 'New Testimonial'
+      'all_items': 'All Testimonials'
+      'view_item': 'View Testimonial'
+      'not_found': 'No Testimonial found'
+      'not_found_in_trash': 'No Testimonials found in the Trash'
+      'parent_item_colon': ''
+      'menu_name': 'Testimonials'
+    'rewrite':
+      'slug': 'testimonial'
+      'with_front': true
+      'feed': true
+      'pages': true
+    'description': 'Holds our Testimonials and Testimonials data'
+    'public': true
+    'menu_position': 20
+    'supports':
+      'title': 'title'
+      'editor': 'editor'
+      'attributes': 'attributes'
+      #thumbnail': 'thumbnail'
+      'author': 'author'
+      'page-attributes': 'page-attributes'
+    'has_archive': 'testimonial'
+    'hierarchical': false
+    'exclude_from_search': false
+    'publicly_queryable': true
+    'show_ui': true
+    'show_in_menu': true
+    'show_in_admin_bar': true
+    'show_in_nav_menus': true
+    'menu_icon': 'dashicons-admin-page'
+#    'capability_type': 'testimonial'
+#    'capabilities':
+#      'testimonial': 'testimonial'
+    'map_meta_cap': true
+    'register_meta_box_cb': false
+    'taxonomies':
+      'test': 'test'
+    'query_var': 'testimonial'
+    'can_export': true
+    'show_in_rest': true
+  'type': 'testimonial'
+  'extras':
+    'sidebars': false
+    'mu_main_site_only': false
+    'sub_site_only': false
+    'columns': false
+    'default_category_tax': true
+    'show_in_nav_menu': true
+    'nav_menu_position': 1
+    'show_posts_in_nav_menu': true
+    'create_dummy_posts': false
+    'url_query_vars': 'testimonial'
+    'can_export': true
+
+

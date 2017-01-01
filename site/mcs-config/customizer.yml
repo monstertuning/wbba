@@ -1,0 +1,190 @@
+'config':
+  - 'config_id': 'company_info_config'
+    'args':
+      'capability': 'edit_theme_options'
+      'option_type': 'option'
+      'option_name': 'mmc'
+      'disable_output': 'false'
+
+'panels':
+  - 'panel_id': 'company_info_panel'
+    'args':
+      'priority': 10,
+      'title': 'Company Info'
+      #'description': 'My Description'
+
+
+'sections':
+  - 'section_id': 'company_address_section'
+    'args':
+      'title': 'Address'
+      'priority': 5
+      #'description': ''
+      'panel': 'company_info_panel'
+      'capability': 'edit_theme_options'
+      'theme_supports': ''
+
+  - 'section_id': 'company_contact_section'
+    'args':
+      'title': 'Contact Details'
+      'priority': 5
+      #'description': ''
+      'panel': 'company_info_panel'
+      'capability': 'edit_theme_options'
+      'theme_supports': ''
+
+  - 'section_id': 'social_media_section'
+    'args':
+      'title': 'Social Media Links'
+      'priority': 10
+      #'description': ''
+      'panel': 'company_info_panel'
+      'capability': 'edit_theme_options'
+      'theme_supports': ''
+
+  - 'section_id': 'company_images_section'
+    'args':
+      'title': 'Company Images'
+      'priority': 10
+      #'description': ''
+      'capability': 'edit_theme_options'
+      'theme_supports': ''
+
+'fields':
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'company_name'
+      'label': 'Company Name'
+      'section': 'company_address_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'address1'
+      'label': 'Address 1'
+      'section': 'company_address_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'address2'
+      'label': 'Address 2'
+      'section': 'company_address_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'address3'
+      'label': 'Address 3'
+      'section': 'company_address_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'town_city'
+      'label': 'Town / City'
+      'section': 'company_address_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'postcode'
+      'label': 'Postcode'
+      'section': 'company_address_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'phone1'
+      'label': 'Phone 1'
+      'section': 'company_contact_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'phone2'
+      'label': 'Phone 2'
+      'section': 'company_contact_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'email'
+      'label': 'Email'
+      'section': 'company_contact_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'social_media_setting'
+      'label': 'Social Media Accounts'
+      'section': 'social_media_section'
+      'type': 'repeater'
+      'priority': 10
+      'default': ''
+      'fields':
+        'link_text':
+          'type': 'text'
+          'label': 'Social Media Name'
+          'description': 'For e.g. Facebook'
+          'default': ''
+        'link_url':
+          'type': 'text'
+          'label': 'Account URL'
+          'description': 'Use full address including https://...'
+          'default': ''
+        'css_classes':
+          'type': 'text'
+          'label': 'CSS Classes'
+          'description': 'For e.g. font awesome uses fa fa-facebook'
+          'default': ''
+      'row_label':
+        'type': 'field'
+        'value': 'Social Media Link'
+        'field': 'section_header'
+      'choices':
+        'limit': 5
+
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'company_logo'
+      'label': 'Company Logo'
+      'section': 'company_images_section'
+      'type': 'image'
+      'priority': 10
+      'default': ''
+      'description': 'Upload a logo to replace the default site name and description in the header'
+
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'company_bg_image'
+      'label': 'Site Background Image'
+      'section': 'company_images_section'
+      'type': 'image'
+      'priority': 10
+      'default': ''
+      'description': 'Upload a background image for the sites theme'

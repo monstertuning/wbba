@@ -27,7 +27,7 @@ add_action('customize_preview_init', __NAMESPACE__ . '\\customize_preview_js');
 function customizer_images( $wp_customize ) {
 
   $wp_customize->add_section( 'sage-timber-wbba-logo-section' , array(
-      'title'       => __( 'Images', 'sage-timber-wbba' ),
+      'title'       => __( 'Media', 'sage-timber-wbba' ),
       'priority'    => 30,
       'description' => 'Upload a logo to replace the default site name and description in the header',
   ) );

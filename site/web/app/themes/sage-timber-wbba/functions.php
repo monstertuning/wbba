@@ -44,7 +44,7 @@ add_action( 'delete_attachment', 'protect_media_from_deletion' );
 
 function protect_media_from_deletion( $postid ){
 
-  $protected = get_post_meta( $postid, '_cmb_media_options_protected_media', true ); 
+  $protected = (boolean) get_post_meta( $postid, '_cmb_media_options_protected_media', true );
 
   if( ! empty( $protected ) ) :
     if( ! empty( $protected ) ) :
@@ -54,6 +54,8 @@ function protect_media_from_deletion( $postid ){
       endif;    
     endif;
   endif;
+
+  return true;
 }
 
 
@@ -78,11 +80,6 @@ function get_custom_excerpt( $post, $count ){
 
   return $excerpt;
 }
-
-
-
-
-
 
 
 

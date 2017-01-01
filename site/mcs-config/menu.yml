@@ -1,0 +1,16 @@
+'menus': 
+  'locations': 
+    'footer-menu-location': 'Footer Menu Location'
+  'menus': 
+    'main-menu': 
+      'name': 'Main Menu'
+      'location': 'primary_navigation'
+    'footer-menu': 
+      'name': 'Footer Menu'
+      'location':  'footer-menu-location'
+
+'main_menu_id': 13
+'main_menu_name':  Main Menu'
+
+
+

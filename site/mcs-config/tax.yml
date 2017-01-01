@@ -1,0 +1,64 @@
+- 'name': 'Blog Category'
+  'args':
+    'labels':
+      'name': 'Blog Category'
+      'singular_name': 'Blog Category'
+      'search_items': 'Search Blog Categories'
+      'all_items': 'All Blog Categories'
+      'parent_item': 'Parent Location'
+      'parent_item_colon': 'Parent Blog Category:'
+      'edit_item': 'Edit Blog Category'
+      'update_item': 'Update Blog Category'
+      'add_new_item': 'Add New Blog Category'
+      'new_item_name': 'New Blog Category'
+      'menu_name': 'Blog Category'
+    'slug': 'blog-category' # This controls the base slug that will display before each term
+    'with_front':  true # Don't display the category base before "/locations/"
+    'hierarchical':  false # This will allow URL's like "/locations/boston/cambridge/"
+    'show_ui':  true
+    'capabilities':
+        'manage_terms':  'delete_others_posts'
+        'edit_terms':  'delete_others_posts'
+        'delete_terms':  'delete_others_posts'
+        'assign_terms':  'delete_others_posts'
+
+  'tax': 'blog_category'
+  'pt':
+    'news_article':
+      'id': 'news_article'
+      'show_tax_meta':  false
+
+
+- 'name': 'News Category'
+  'args':
+    'labels':
+      'name': 'News Category'
+      'singular_name': 'News Category'
+      'search_items': 'Search News Categories'
+      'all_items': 'All News Categories'
+      'parent_item': 'Parent Location'
+      'parent_item_colon': 'Parent News Category:'
+      'edit_item': 'Edit News Category'
+      'update_item': 'Update News Category'
+      'add_new_item': 'Add New News Category'
+      'new_item_name': 'New News Category'
+      'menu_name': 'News Category'
+    'slug': 'blog-category' # This controls the base slug that will display before each term
+    'with_front': true # Don't display the category base before "/locations/"
+    'hierarchical': false # This will allow URL's like "/locations/boston/cambridge/"
+    'show_ui': true
+    'capabilities':
+        'manage_terms': 'delete_others_posts'
+        'edit_terms': 'delete_others_posts'
+        'delete_terms': 'delete_others_posts'
+        'assign_terms': 'delete_others_posts'
+
+  'tax': 'news_category'
+  'pt':
+    'news_article':
+      'id': 'news_article'
+      'show_tax_meta': false
+    'page':
+      'id': 'page'
+      'show_tax_meta': true
+
