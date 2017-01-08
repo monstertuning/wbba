@@ -1,29 +1,30 @@
-<?php
+archive<?php
+
+global $wp_query;
+global $posts_per_page;
+
 $context = \Timber::get_context();
-$pt = get_post_type();
-$context['post_type'] = $pt;
 
-$postType = get_queried_object();
-$context['title'] = esc_html($postType->labels->name);
+$pt = get_queried_object();
+$context['post_type'] = $pt->name;
+$context['title'] = esc_html($pt->labels->name);
 
-switch ( $pt ){
+switch ( $pt->name ){
 	case 'testimonials' :
 		$posts_per_page = 1;
         break;
 
-	case 'programs' :
-		$posts_per_page = 2;
+	case 'program' :
+		$posts_per_page = 20;
         break;
 }
 
-global $posts_per_page;
 
 
 $args = array( 
 	'posts_per_page' => $posts_per_page, 
-	'post_type' => $pt,
+	'post_type' => $pt->name,
 );
-
 
 $posts = query_posts( $args );
 
@@ -36,4 +37,4 @@ if( ! empty( $posts ) ) :
 	$context['posts'] = $posts2;
 endif;
 
-Timber::render( ["templates/archive-" . $pt . ".twig", "templates/archive.twig"], $context ); 
+Timber::render( ["templates/archive-" . $pt->name . ".twig", "templates/archive.twig"], $context );

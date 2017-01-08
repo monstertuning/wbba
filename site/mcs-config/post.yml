@@ -407,7 +407,7 @@
       'title': 'title'
       'editor': 'editor'
       'attributes': 'attributes'
-      #thumbnail': 'thumbnail'
+      thumbnail': 'thumbnail'
       'author': 'author'
       'page-attributes': 'page-attributes'
     'has_archive': 'program'

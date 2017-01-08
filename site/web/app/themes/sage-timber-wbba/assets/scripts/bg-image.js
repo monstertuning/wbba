@@ -1,29 +1,63 @@
 (function($) {
 
-    console.log( 'bg-image.js' );
-    console.log(local.foobar);
-    console.log(local.bg_image);
+    console.log(local);
 
-    $('body').css( "background-image", "url( " + local.bg_image + " ) " );
-    $('body').css( "background-repeat", "no-repeat" );
-    $('body').css( "background-position", "top center" );
+    const body_ele = $('body');
+    body_ele.css( "background-image", "url( " + local.company_bg_image + " ) " );
+    body_ele.css( "background-repeat", "no-repeat" );
+    body_ele.css( "background-position", "top center" );
 
-    //var function getOutput() {
-      /* $.ajax({
+    function getOutput() {
+       $.ajax({
 
-          url:'0myAjax.php',
+          url:'00myAjax.php',
           data:'functionName=myAjax',
           complete: function (response) {
               console.log("ajax completed");
-              console.log(response.responseText);
+              console.log(response);
           },
           error: function () {
               console.log('Bummer: there was an error!');
           }
-      });*/
+      });
 
-      //return false;
-    //}
+      return false;
+    }
+
+    //getOutput();
+
+    //console.log(getOutput());
+
+
+
+
+
+
+    /*$.ajax({
+        url : wpadmin.adminAjax,
+        data : {
+            action: 'action_name'
+        },
+        success: function(response) {
+            console.log('---------------------------');
+            console.log(response);
+        }
+    });*/
+
 
 
 })(jQuery);
+
+
+/*
+jQuery(document).ready( function($) {
+
+    $.ajax({
+        url: "0myAjax.php",
+        success: function( data ) {
+            alert( 'Your home page has ' + $(data).find('div').length + ' div elements.');
+        }
+    });
+
+});
+*/

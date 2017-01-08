@@ -12,7 +12,7 @@ var jshint       = require('gulp-jshint');
 var lazypipe     = require('lazypipe');
 var less         = require('gulp-less');
 var merge        = require('merge-stream');
-var minifyCss    = require('gulp-minify-css');
+var cssNano      = require('gulp-cssnano');
 var plumber      = require('gulp-plumber');
 var rev          = require('gulp-rev');
 var runSequence  = require('run-sequence');
@@ -104,9 +104,8 @@ var cssTasks = function(filename) {
         'opera 12'
       ]
     })
-    .pipe(minifyCss, {
-      advanced: false,
-      rebase: false
+    .pipe(cssNano, {
+      safe: true
     })
     .pipe(function() {
       return gulpif(enabled.rev, rev());
@@ -209,7 +208,7 @@ gulp.task('fonts', function() {
     .pipe(browserSync.stream());
 });
 
-// ### Media
+// ### Images
 // `gulp images` - Run lossless compression on all the images.
 gulp.task('images', function() {
   return gulp.src(globs.images)
@@ -245,11 +244,8 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
 // See: http://www.browsersync.io
 gulp.task('watch', function() {
   browserSync.init({
-    files: ['{lib,templates}/**/*.php', '*.php', '{lib,templates}/**/*.twig', '*.twig'],
-    open: 'external',
-    host: config.devUrl,
+    files: ['{lib,templates}/**/*.php', '*.php'],
     proxy: config.devUrl,
-    port: 3000,
     snippetOptions: {
       whitelist: ['/wp-admin/admin-ajax.php'],
       blacklist: ['/wp-admin/**']

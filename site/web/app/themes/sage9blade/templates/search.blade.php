@@ -2,7 +2,7 @@
 
 @section('content')
   @include('partials.page-header')
-
+search
   @if (!have_posts())
     <div class="alert alert-warning">
       {{  __('Sorry, no results were found.', 'sage') }}

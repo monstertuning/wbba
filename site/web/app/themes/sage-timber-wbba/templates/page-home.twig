@@ -64,7 +64,6 @@
 
 			<div class="carousel-inner" role="listbox">
 				{% for program in programs %}
-					{#{{ program | print_r }}#}
 					{% set activeClass = '' %}
 					{% if loop.index0 == 0 %}
 						{% set activeClass = 'active' %}

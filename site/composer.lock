@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f5b330fbe01b85ed839e23dcb636ca1",
-    "content-hash": "23863e2d6ce4fb2342408b4cfd70fc4f",
+    "hash": "7a8e18e75d3760e6d6bf49155e430d15",
+    "content-hash": "2a4d82e100ced985aceef39745e1f058",
     "packages": [
         {
             "name": "A5hleyRich/wp-cli-unsplash-command",
@@ -243,6 +243,17 @@
             "time": "2016-03-28 18:54:21"
         },
         {
+            "name": "dupkey/bs4navwalker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:dupkey/bs4navwalker.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2016-01-21 22:07:50"
+        },
+        {
             "name": "jajouka/lc-ajax-loader",
             "version": "dev-master",
             "source": {
@@ -265,7 +276,7 @@
                 "composer/installers": "~1.0.12"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-19 23:49:54"
+            "time": "2017-01-01 17:56:20"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -718,15 +729,15 @@
         },
         {
             "name": "wpackagist-plugin/formidable",
-            "version": "2.02.12",
+            "version": "2.02.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/formidable/",
-                "reference": "tags/2.02.12"
+                "reference": "tags/2.02.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/formidable.2.02.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/formidable.2.02.13.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -938,15 +949,15 @@
         },
         {
             "name": "wpackagist-plugin/user-role-editor",
-            "version": "4.31",
+            "version": "4.31.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-role-editor/",
-                "reference": "tags/4.31"
+                "reference": "tags/4.31.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.31.zip",
+                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.31.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1051,7 +1062,8 @@
     "stability-flags": {
         "jajouka/medusa-content-suite": 20,
         "jajouka/lc-ajax-loader": 20,
-        "a5hleyrich/wp-cli-unsplash-command": 20
+        "a5hleyrich/wp-cli-unsplash-command": 20,
+        "dupkey/bs4navwalker": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

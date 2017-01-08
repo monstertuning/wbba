@@ -4,11 +4,6 @@ namespace Roots\Sage\Setup;
 
 use Roots\Sage\Assets;
 
-
-#siedev
-
-add_theme_support('woocommerce');
-
 /**
  * Theme setup
  */
@@ -119,14 +114,8 @@ function assets() {
   }
 
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
-
   wp_localize_script('sage/js', 'local', apply_filters('roots_localize_script', array()));
-
   
 }
+
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
-
-
-
-
-

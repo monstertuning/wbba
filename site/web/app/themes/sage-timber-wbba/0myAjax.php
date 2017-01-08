@@ -3,4 +3,5 @@
 function myAjax()
 {
 	echo "!!!!!!!!!!";
+	return"+++++++++++++++++++";
 }

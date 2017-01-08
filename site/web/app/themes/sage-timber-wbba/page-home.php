@@ -4,7 +4,9 @@ namespace TimberTheme;
 
 /* Template Name: LC Blogs Home Page */
 use Timber\Timber;
-//use TimberPost;
+
+$value = get_option( 'mmc')['company_bg_image'];
+#var_dump($value);
 
 $context = Timber::get_context( );
 $context['post'] = new \TimberPost();
@@ -33,11 +35,16 @@ if( ! empty( $news_articles ) ) :
     $news_articles2 = [];
 
 	foreach( $news_articles as $n ):
+        $a = get_the_post_thumbnail( $n->ID, '400square' );
 
-		$news_articles2[$x] = new \TimberPost( $n->ID );
-		#$news_articles2[$x]->image = new TimberImage( $n->ID, '400square' );
-		$news_articles2[$x]->image = get_the_post_thumbnail( $n->ID, '400square' );
-		$x++;
+        if($a){
+            $news_articles2[$x] = new \TimberPost( $n->ID );
+            #$news_articles2[$x]->image = new TimberImage( $n->ID, '400square' );
+            $news_articles2[$x]->image = get_the_post_thumbnail( $n->ID, '400square' );
+            $x++;
+        }
+
+
 
 	endforeach;
 
@@ -51,7 +58,7 @@ endif;
 
 $args = array( 
 	'posts_per_page' => 5, 
-	'post_type' => 'programs',
+	'post_type' => 'program',
 );
 
 $programs = query_posts( $args );
@@ -63,10 +70,11 @@ if( ! empty( $programs ) ) :
 
 	foreach( $programs as $p ):
 
-		$programs2[$x] = new \TimberPost( $p->ID );
-		$programs2[$x]->image = get_the_post_thumbnail( $p->ID, 'thumb-width-750-height-500-crop' );
-		$x++;
-
+        if(has_post_thumbnail($p->ID)){
+            $programs2[$x] = new \TimberPost( $p->ID );
+            $programs2[$x]->image = get_the_post_thumbnail( $p->ID, 'thumb-width-750-height-500-crop' );
+            $x++;
+        }
 	endforeach;
 
 	$context['programs'] = $programs2;
