@@ -1,4 +1,7 @@
 <?php
+namespace TimberTheme;
+
+use Timber\Timber;
 
 $context = Timber::get_context( );
 $count_number = get_option('posts_per_page' );
@@ -80,4 +83,4 @@ $context['posts'] = $posts2;
 
 
 
-Timber::render('templates/author.twig', $context);
+Timber::render(['templates/author.twig'], $context);

@@ -1,9 +1,12 @@
-archive<?php
+<?php
+namespace TimberTheme;
+
+use Timber\Timber;
 
 global $wp_query;
 global $posts_per_page;
 
-$context = \Timber::get_context();
+$context = Timber::get_context();
 
 $pt = get_queried_object();
 $context['post_type'] = $pt->name;
@@ -27,7 +30,7 @@ $args = array(
 );
 
 $posts = query_posts( $args );
-
+$posts2 = [];
 $x = 0;
 if( ! empty( $posts ) ) :
 	foreach( $posts as $p ):

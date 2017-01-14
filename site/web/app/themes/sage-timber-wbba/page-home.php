@@ -83,4 +83,4 @@ endif;
 
 
 
-Timber::render('templates/page-home.twig', $context);
+Timber::render(['templates/page-home.twig'], $context);

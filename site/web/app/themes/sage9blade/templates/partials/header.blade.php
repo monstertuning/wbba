@@ -6,5 +6,10 @@
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
       @endif
     </nav>
+
+      my_global: {{ $my_global or 'Nope' }}<br>
+      cunt: {{ $cunt or 'Nope2' }}<br>
+      simon: {{ $simon or 'Nope3' }}<br>
+
   </div>
 </header>

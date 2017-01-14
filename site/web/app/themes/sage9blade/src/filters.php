@@ -5,6 +5,8 @@ namespace App;
 /**
  * Add <body> classes
  */
+use Illuminate\Support\Facades\App;
+
 add_filter('body_class', function (array $classes) {
     // Add page slug if it doesn't exist
     if (is_single() || is_page() && !is_front_page()) {
