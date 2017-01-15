@@ -8,8 +8,32 @@
     </nav>
 
       my_global: {{ $my_global or 'Nope' }}<br>
-      cunt: {{ $cunt or 'Nope2' }}<br>
-      simon: {{ $simon or 'Nope3' }}<br>
+      cunt: {{ $cunt or 'Nope' }}<br>
+      metaPrefix: {{ $metaPrefix or 'Nope' }}<br>
+      metaFieldKeys:
+      @if(!empty($metaFieldKeys))
+          @forelse($metaFieldKeys as $f)
+              {{ $f }}
+          @empty
+              Nope
+          @endforelse
+      @else
+          Nope!
+      @endif
+      <br>
+
+      meta:
+      @if(!empty($meta))
+          @forelse($meta as $m)
+              {{ $m }}
+          @empty
+              Nope
+          @endforelse
+      @else
+          Nope!
+      @endif
+
+          <br>
 
   </div>
 </header>

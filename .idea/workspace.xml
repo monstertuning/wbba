@@ -1,172 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/data.php" line="10" mnemonic="4" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="4c4bacd1-1600-45b5-a5da-fcc9c62ee2f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/data.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/.github/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/fonts/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/images/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/scripts/customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/common/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/common/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/components/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/components/_comments.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/components/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/components/_wp-classes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/layouts/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/layouts/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/layouts/_pages.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/layouts/_posts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/layouts/_sidebar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/layouts/_tinymce.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/assets/styles/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/lang/sage.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/lib/assets.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/lib/customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/lib/extras.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/lib/setup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/lib/titles.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/lib/wrapper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/ruleset.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/template-custom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/comments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/content-search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/content-single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/entry-meta.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/head.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/page-header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/templates/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage8.5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/public-path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/util/addHotMiddleware.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/util/assetManifestsFormatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/util/interpolateName.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/util/mergeWithConcat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/util/promisify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/webpack.config.optimize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/webpack.config.watch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/webpack.plugin.browsersync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/build/webpack.plugin.copyglobs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/fonts/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/images/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/scripts/customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/scripts/routes/About.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/scripts/routes/Common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/scripts/routes/Home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/scripts/util/camelCase.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/scripts/util/router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/common/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/common/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/components/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/components/_comments.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/components/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/components/_wp-classes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/layouts/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/layouts/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/layouts/_pages.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/layouts/_posts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/layouts/_sidebar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/layouts/_tinymce.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/assets/styles/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/phpcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/filters.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/helpers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/lib/Sage/Asset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/lib/Sage/Assets/JsonManifest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/lib/Sage/Assets/ManifestInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/lib/Sage/Template.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/lib/Sage/Template/Partial.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/lib/Sage/Template/Wrapper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/lib/Sage/Template/WrapperInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/src/setup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/layouts/base.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/comments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/content-search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/content-single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/entry-meta.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/head.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/page-header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/partials/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/templates/template-custom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9/yarn.lock" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/stylesDev.css" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/stylesDev.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage/base.php" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/baseBAK.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/data.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/archive.php" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/archive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/base/_base.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/common/_global.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/common/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/common/_variables.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/common/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/common/_variables2.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/common/_variables2.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/main.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/author.php" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/author.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/base.php" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/index.php" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/page-home.php" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/page-home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/page.php" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/templates/base.twig" afterPath="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/templates/base.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/filters.php" afterPath="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Config.php" afterPath="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/partials/header.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/partials/header.blade.php" />
     </list>
     <ignored path="wbba.iws" />
@@ -182,6 +20,14 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="wbba" />
@@ -191,18 +37,54 @@
       <file leaf-file-name="filters.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/filters.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="109">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/data.php">
+      <file leaf-file-name="single.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/single.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding>
+                <element signature="e#30#64#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_meta.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/mcs-config/post_meta.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="84" column="51" lean-forward="false" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
+              <folding>
+                <element signature="e#101#702#0#PHP" expanded="false" />
+                <element signature="e#804#1971#0#PHP" expanded="false" />
+                <marker date="1484440196801" expanded="true" signature="445:509" ph="Select if yo... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Globals.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Config/Globals.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="274" column="21" lean-forward="true" selection-start-line="274" selection-start-column="21" selection-end-line="274" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -211,9 +93,21 @@
       <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/partials/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="53">
+              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="medusa_content_suite.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/medusa_content_suite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-521">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="e#288#338#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,7 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>:</find>
       <find>News Articles</find>
       <find>$p['types']</find>
       <find>admin</find>
@@ -252,6 +145,7 @@
       <find>get_con</find>
       <find>App</find>
       <find>dataSimon</find>
+      <find>Roots\\Sage\\Con</find>
     </findStrings>
     <replaceStrings>
       <replace>$context</replace>
@@ -285,15 +179,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Functions/Common.php" />
-        <option value="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Media/Protect.php" />
-        <option value="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Menus/Menus.php" />
-        <option value="$PROJECT_DIR$/site/web/app/themes/sage9/style.css" />
-        <option value="$PROJECT_DIR$/site/web/app/themes/sage9/assets/config.json" />
         <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/style.css" />
         <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/layouts/base.blade.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/vendor/illuminate/view/ViewServiceProvider.php" />
-        <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Container.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/partials/content-single.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/functions.php" />
@@ -331,11 +219,17 @@
         <option value="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/base.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/lib/wrapper.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/page-home.php" />
-        <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Config.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/404.php" />
-        <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/filters.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/data.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Container.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Data.php" />
+        <option value="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/medusa_content_suite.php" />
+        <option value="$PROJECT_DIR$/site/mcs-config/post_meta.php" />
+        <option value="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/README.md" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Config.php" />
+        <option value="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Config/Globals.php" />
       </list>
     </option>
   </component>
@@ -367,7 +261,8 @@
   <component name="PhpWebServerValidation" deployment_server_id="c779987e-6ea1-42a0-bb52-34da8a3f453d" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="REMOTE" web_path_to_validation_script="http://127.0.0.1/" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="WBBA - Vagrant PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
+    <option name="x" value="-4" />
+    <option name="width" value="1374" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -510,6 +405,288 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sage9blade" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sage9blade" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sage9blade" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sage-timber-wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sage-timber-wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sage-timber-wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medusa-content-suite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wbba" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcs-config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -521,7 +698,7 @@
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v7.2.1/bin/node" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v7.2.1/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/site/web/app/themes/sage8.5/assets/styles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/site/web/app/themes/sage8.5/assets/styles" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/site/web/app/themes/sage/lib/setup.php" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -530,19 +707,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba" />
-      <recent name="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/common" />
-      <recent name="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Config" />
-      <recent name="$PROJECT_DIR$/site/mcs-config" />
-      <recent name="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Customizer" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Template" />
       <recent name="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Widgets" />
       <recent name="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Media" />
       <recent name="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib" />
       <recent name="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/CMB" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage" />
+      <recent name="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba" />
+      <recent name="$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/assets/styles/common" />
+      <recent name="$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Config" />
+      <recent name="$PROJECT_DIR$/site/mcs-config" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Application.wbba">
@@ -682,12 +859,12 @@
       <workItem from="1484076713070" duration="2095000" />
       <workItem from="1484251369245" duration="118000" />
       <workItem from="1484260426722" duration="599000" />
-      <workItem from="1484337373048" duration="24411000" />
+      <workItem from="1484337373048" duration="49816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262523000" />
+    <option name="totallyTimeSpent" value="287928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,21 +876,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="745" extended-state="4" />
-    <editor active="false" />
+    <frame x="-4" y="0" width="1374" height="745" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30471125" sideWeight="0.49275362" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20166163" sideWeight="0.49275362" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6152542" sideWeight="0.50759876" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994062" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33105803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19469027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24941725" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6152542" sideWeight="0.4924012" order="7" side_tool="false" content_ui="tabs" x="65" y="225" width="1300" height="328" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2898305" sideWeight="0.4924012" order="7" side_tool="false" content_ui="tabs" x="65" y="225" width="1300" height="328" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26573426" sideWeight="0.5072464" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3101695" sideWeight="0.49697885" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40847456" sideWeight="0.49697885" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -967,188 +1144,44 @@
           <option name="timeStamp" value="280" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/data.php</url>
+          <url>file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Container.php</url>
           <line>8</line>
-          <option name="timeStamp" value="297" />
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Config.php</url>
+          <line>66</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Config/Globals.php</url>
+          <line>279</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Config/Globals.php</url>
+          <line>253</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Config/Globals.php</url>
+          <line>275</line>
+          <option name="timeStamp" value="346" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="299" />
+      <option name="time" value="347" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PhpWebAppRunConfigurationType">
-        <watch expression="$data" />
-        <watch expression="$value" />
-        <watch expression="$function_to_add" />
-        <watch expression="$tag" />
+        <watch expression="$v" />
+        <watch expression="$keys[0]" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/baseBAK.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1483921689000" expanded="true" signature="256:447" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/0myAjax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/plugins/timber-library/lib/Timber.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4284">
-          <caret line="228" column="34" lean-forward="false" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="34" />
-          <folding>
-            <element signature="e#26#42#0#PHP" expanded="true" />
-            <marker date="1482194106756" expanded="true" signature="5841:5894" ph="SELECT blog_... ${$wpdb-&gt;blogs}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/plugins/timber-library/lib/Site.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#26#42#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Template/Timber/TimberContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/search.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/vendor/illuminate/view/Engines/PhpEngine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#57#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="102" column="29" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/wp/wp-includes/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="913" column="0" lean-forward="false" selection-start-line="913" selection-start-column="0" selection-end-line="913" selection-end-column="0" />
-          <folding>
-            <marker date="1482275424203" expanded="true" signature="57509:57525" ph="Insert into post... " />
-            <marker date="1482275424203" expanded="true" signature="57535:57551" ph="Insert into page... " />
-            <marker date="1482275424203" expanded="true" signature="83259:83343" ph="SELECT post_... $" />
-            <marker date="1482275424203" expanded="true" signature="85279:85430" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="85600:85693" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="91418:91458" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="92865:92933" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="93258:93335" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="93787:93852" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1482275424203" expanded="true" signature="94045:94099" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1482275424203" expanded="true" signature="98687:98770" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1482275424203" expanded="true" signature="100692:100775" ph="UPDATE ${$wp... " />
-            <marker date="1482275424203" expanded="true" signature="120638:120679" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="132178:132254" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="133327:133462" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="134580:134675" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="148830:148882" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="151466:151606" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="153423:153521" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="153582:153659" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="165716:165774" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="170184:170224" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="171342:171407" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1482275424203" expanded="true" signature="171601:171655" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1482275424203" expanded="true" signature="172226:172345" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1482275424203" expanded="true" signature="194504:194649" ph="SELECT post_... " />
-            <marker date="1482275424203" expanded="true" signature="194705:194846" ph="SELECT post_... " />
-            <marker date="1482275424203" expanded="true" signature="194942:195136" ph="SELECT DATE_... " />
-            <marker date="1482275424203" expanded="true" signature="205860:205970" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1482275424203" expanded="true" signature="208491:208547" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/partials/entry-meta.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/layouts/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="140" lean-forward="false" selection-start-line="6" selection-start-column="140" selection-end-line="6" selection-end-column="140" />
-          <folding>
-            <marker date="1483309738000" expanded="true" signature="162:352" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/vendor/illuminate/config/Repository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -1205,26 +1238,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/vendor/illuminate/container/Container.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="1169" column="0" lean-forward="false" selection-start-line="1169" selection-start-column="0" selection-end-line="1169" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/wp/wp-includes/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="644" column="0" lean-forward="false" selection-start-line="644" selection-start-column="0" selection-end-line="644" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1283,26 +1300,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Template/Blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/wp/wp-includes/plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1344,14 +1345,6 @@
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/vendor/composer/autoload_psr4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/vendor/composer/autoload_static.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-344">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1421,26 +1414,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/filters.php">
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/vendor/composer/autoload_static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Container.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/wp/wp-includes/plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage-timber-wbba/lib/extras2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/filters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/mcs-config/post_meta.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/vendor/illuminate/container/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="651" column="0" lean-forward="false" selection-start-line="651" selection-start-column="0" selection-end-line="651" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="81" lean-forward="true" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/medusa_content_suite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-521">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#288#338#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/wp/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="1754" column="0" lean-forward="false" selection-start-line="1754" selection-start-column="0" selection-end-line="1754" selection-end-column="0" />
+          <folding>
+            <marker date="1482275424203" expanded="true" signature="57509:57525" ph="Insert into post... " />
+            <marker date="1482275424203" expanded="true" signature="57535:57551" ph="Insert into page... " />
+            <marker date="1482275424203" expanded="true" signature="83259:83343" ph="SELECT post_... $" />
+            <marker date="1482275424203" expanded="true" signature="85279:85430" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="85600:85693" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="91418:91458" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="92865:92933" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="93258:93335" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="93787:93852" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1482275424203" expanded="true" signature="94045:94099" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1482275424203" expanded="true" signature="98687:98770" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1482275424203" expanded="true" signature="100692:100775" ph="UPDATE ${$wp... " />
+            <marker date="1482275424203" expanded="true" signature="120638:120679" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="132178:132254" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="133327:133462" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="134580:134675" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="148830:148882" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="151466:151606" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="153423:153521" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="153582:153659" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="165716:165774" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="170184:170224" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="171342:171407" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1482275424203" expanded="true" signature="171601:171655" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1482275424203" expanded="true" signature="172226:172345" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1482275424203" expanded="true" signature="194504:194649" ph="SELECT post_... " />
+            <marker date="1482275424203" expanded="true" signature="194705:194846" ph="SELECT post_... " />
+            <marker date="1482275424203" expanded="true" signature="194942:195136" ph="SELECT DATE_... " />
+            <marker date="1482275424203" expanded="true" signature="205860:205970" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1482275424203" expanded="true" signature="208491:208547" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/wp/wp-includes/meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="512" column="0" lean-forward="false" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
+          <folding>
+            <marker date="1482192933685" expanded="true" signature="2605:2669" ph="SELECT COUNT... ${$table}" />
+            <marker date="1482192933685" expanded="true" signature="6711:6777" ph="SELECT ${$id... ${$table}" />
+            <marker date="1482192933685" expanded="true" signature="12138:12187" ph="SELECT ${$id... ${$table}" />
+            <marker date="1482192933685" expanded="true" signature="12771:12823" ph="SELECT ${$ty... ${$table}" />
+            <marker date="1482192933685" expanded="true" signature="13650:13725" ph="DELETE FROM " />
+            <marker date="1482192933685" expanded="true" signature="18832:18874" ph="SELECT * FRO... ${$table}" />
+            <marker date="1482192933685" expanded="true" signature="25615:25715" ph="SELECT ${$co... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/mcs-config/post_meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="84" column="51" lean-forward="false" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
+          <folding>
+            <element signature="e#101#702#0#PHP" expanded="false" />
+            <element signature="e#804#1971#0#PHP" expanded="false" />
+            <marker date="1484440196801" expanded="true" signature="445:509" ph="Select if yo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/templates/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/web/wp/wp-includes/class-wp-hook.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+        <state relative-caret-position="103">
+          <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/data.php">
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/sage9blade/src/lib/Sage/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="390">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#30#64#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/plugins/medusa-content-suite/lib/Config/Globals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="274" column="21" lean-forward="true" selection-start-line="274" selection-start-column="21" selection-end-line="274" selection-end-column="21" />
           <folding />
         </state>
       </provider>
