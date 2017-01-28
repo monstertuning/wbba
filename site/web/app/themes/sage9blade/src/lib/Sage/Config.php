@@ -13,7 +13,6 @@ class Config extends Repository
     {
         parent::__construct();
         $postTypes = McsGlobals::getPostConfigStatic();
-        $postMeta = McsGlobals::getPostMetaConfigStatic();
         $this->setPostTypes($postTypes);
         $this->addGlobalClass();
         add_filter('sage/template/global/data', array($this, 'globalData'));
@@ -57,15 +56,12 @@ class Config extends Repository
     {
         $pt = get_post_type();
         $metaBoxTitle = McsGlobals::getPostMetaBoxIdByPostType($pt);
-        $metaPrefix = McsGlobals::getPostMetaPrefixByPostType($pt);
-        $metaFieldKeys = McsGlobals::getPostMetaFieldKeysByPostType($pt);
-        //$metaFieldKeysStripped = McsGlobals::stripPostMetaFieldKeys($metaBoxId, $metaPrefix, $metaFieldKeys);
-        $data['cunt'] = 'flaps2';
-        $data['metaPrefix'] = $metaPrefix;
-        $data['metaFieldKeys'] = $metaFieldKeys;
-        $data['meta'] = McsGlobals::getPostMetaFieldValuesFromKeys($metaFieldKeys);
+        $metaFieldKeysAndTypes = McsGlobals::getPostMetaFieldKeysAndTypeByPostType($pt);
+        $meta = McsGlobals::getPostMetaFieldValuesFromKeys($metaFieldKeysAndTypes, $pt);
+        $data['meta'] = $meta;
         return $data;
     }
+
 
     /**
      * @return array

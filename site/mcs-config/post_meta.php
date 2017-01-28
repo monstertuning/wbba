@@ -161,7 +161,7 @@ $config = array();
 				    'id' 	   => $prefix . 'fighter_styles',
 				    'type'     => 'pw_multiselect',
 				    'options' => array(
-				        'light_continous' => 'Light Continous',
+				        'light_continuous' => 'Light Continuous',
 				        'full_contact' => 'Full Contact',
 				        'boxing' => 'Boxing',
 				        'strike_and_grapple' => 'Strike &amp; Grapple',
@@ -182,8 +182,8 @@ $config = array();
 					'fields'  => array(
 						array(
 							'name' => __( 'Achievement', 'cmb2' ),
-							'desc' => __( 'Type in the fighters achievment', 'cmb2' ),
-							'id' => $prefix . 'achievement',
+							'desc' => __( 'Type in the fighters achievement', 'cmb2' ),
+							'id' => 'achievement',
 							'type'    => 'text',
 			
 						),
@@ -283,7 +283,7 @@ $config = array();
 						array(
 						    'name'             => 'Day',
 						    'desc'             => 'Select a day',
-						    'id'               => $prefix . 'day_of_week',
+						    'id'               => 'day_of_week',
 						    'type'             => 'select',
 						    'show_option_none' => false,
 						    'default'          => 'monday',
@@ -300,14 +300,14 @@ $config = array();
 
 						array(
 							'name' => 'Start Time',
-							'id' => $prefix . 'start_ime',
+							'id' => 'start_ime',
 							'type' => 'text_time'
 							// 'time_format' => 'h:i:s A',
 						),
 						
 						array(
 							'name' => 'Finish Time',
-							'id' => $prefix . 'finish_time',
+							'id' => 'finish_time',
 							'type' => 'text_time'
 							// 'time_format' => 'h:i:s A',
 						),

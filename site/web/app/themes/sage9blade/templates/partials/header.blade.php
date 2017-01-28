@@ -24,8 +24,22 @@
 
       meta:
       @if(!empty($meta))
-          @forelse($meta as $m)
-              {{ $m }}
+          @forelse($meta as $k => $v)
+              @if (gettype($v) == 'string' || gettype($v) == 'integer' || gettype($v) == 'boolean')
+                  {{$k}}({{gettype($v)}}) : {{$v}}<br>
+              @elseif(gettype($v) == 'array')
+                  {{$k}}({{gettype($v)}}) :<br>
+                  @foreach($v as $k2 => $v2)
+                      @if (gettype($v2) == 'string' || gettype($v2) == 'boolean')
+                          {{$k2}}({{gettype($v2)}}) : {{$v2}}<br>
+                      @elseif(gettype($v2) == 'array')
+                          {{$k2}}({{gettype($v2)}}) : <br>
+                          @foreach($v2 as $k3 => $v3)
+                              {{$k3}}({{gettype($v3)}}) : {{$v3}}<br>
+                          @endforeach
+                      @endif
+                  @endforeach
+              @endif
           @empty
               Nope
           @endforelse

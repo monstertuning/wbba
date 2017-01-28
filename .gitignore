@@ -1,4 +1,3 @@
 debug.log
-.idea
-site/vendor/
-trellis/vendor/
+.idea/
+.idea/*.xml
