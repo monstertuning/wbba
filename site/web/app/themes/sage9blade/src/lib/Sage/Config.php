@@ -4,6 +4,7 @@ namespace Roots\Sage;
 
 use \Illuminate\Config\Repository;
 use MedusaContentSuite\Config\Globals as McsGlobals;
+use MedusaContentSuite\CMB\Meta\PostMeta;
 
 class Config extends Repository
 {
@@ -12,7 +13,7 @@ class Config extends Repository
     public function __construct()
     {
         parent::__construct();
-        $postTypes = McsGlobals::getPostConfigStatic();
+        $postTypes = $this->getMcsGlobals()->getPostConfig();
         $this->setPostTypes($postTypes);
         $this->addGlobalClass();
         add_filter('sage/template/global/data', array($this, 'globalData'));
@@ -47,18 +48,63 @@ class Config extends Repository
          *
          */
 
-        $data['my_global'] = 'Hi';
+        $args = array(
+            'posts_per_page'   => 10,
+            'offset'           => 0,
+            'category'         => '',
+            'category_name'    => '',
+            'orderby'          => 'date',
+            'order'            => 'DESC',
+            'include'          => '',
+            'exclude'          => '',
+            'meta_key'         => '',
+            'meta_value'       => '',
+            'post_type'        => 'program',
+            'post_mime_type'   => '',
+            'post_parent'      => '',
+            'author'	   => '',
+            'author_name'	   => '',
+            'post_status'      => 'publish',
+            'suppress_filters' => true
+        );
+
+        $programs = get_posts( $args );
+        $programs2 = [];
+
+        $x = 0;
+        foreach ( $programs as $program ){
+            $programs2[$x]['id'] = $program->ID;
+            $programs2[$x]['title'] = $program->post_title;
+            $programs2[$x]['link'] = get_permalink( $program->ID );
+
+            $programs2[$x]['image'] = get_the_post_thumbnail(
+                $program->ID,
+                array( 100, 100),
+                array( "class" => "img-responsive" )
+            );
+
+            $programs2[$x]['ages'] = get_post_meta( $program->ID, '_cmb_program_options__cmb_program_options_suitable_ages', true);
+
+            $x++;
+        }
+
+        $data['programs'] = $programs2;
         //$data['simon'] = 'beasley';
         return $data;
     }
 
     public function ptData( $data )
     {
+        //$metaTest =  get_post_meta($post->ID);
         $pt = get_post_type();
-        $metaBoxTitle = McsGlobals::getPostMetaBoxIdByPostType($pt);
-        $metaFieldKeysAndTypes = McsGlobals::getPostMetaFieldKeysAndTypeByPostType($pt);
-        $meta = McsGlobals::getPostMetaFieldValuesFromKeys($metaFieldKeysAndTypes, $pt);
-        $data['meta'] = $meta;
+        //$metaBoxTitle = PostMeta::getPostMetaBoxIdByPostType($pt);
+        $postMeta = new PostMeta;
+        $metaFieldKeysAndTypes = $postMeta->getPostMetaFieldKeysAndTypeByPostType($pt);
+        $meta = $postMeta->getPostMetaFieldValuesFromKeys($metaFieldKeysAndTypes, $pt);
+        //$terms = get_terms();c
+
+        $data['meta'] = (isset($meta) ? $meta : null);
+
         return $data;
     }
 
@@ -80,4 +126,11 @@ class Config extends Repository
         $this->postTypes = $postTypes;
         return $this;
     }
+
+
+    protected function getMcsGlobals()
+    {
+        return new McsGlobals;
+    }
+
 }

@@ -26,7 +26,7 @@
   'pt':
     'news_article':
       'id': 'news_article'
-      'show_tax_meta':  false
+      'show_tax_meta':  true
 
 
 - 'name': 'News Category'
@@ -43,7 +43,7 @@
       'add_new_item': 'Add New News Category'
       'new_item_name': 'New News Category'
       'menu_name': 'News Category'
-    'slug': 'blog-category' # This controls the base slug that will display before each term
+    'slug': 'news-category' # This controls the base slug that will display before each term
     'with_front': true # Don't display the category base before "/locations/"
     'hierarchical': false # This will allow URL's like "/locations/boston/cambridge/"
     'show_ui': true
@@ -57,7 +57,39 @@
   'pt':
     'news_article':
       'id': 'news_article'
-      'show_tax_meta': false
+      'show_tax_meta': true
+    'page':
+      'id': 'page'
+      'show_tax_meta': true
+
+
+
+- 'name': 'Event Category'
+  'args':
+    'labels':
+      'name': 'Event Category'
+      'singular_name': 'Event Category'
+      'search_items': 'Search Event Categories'
+      'all_items': 'All Event Categories'
+      'parent_item': 'Parent Location'
+      'parent_item_colon': 'Parent Event Category:'
+      'edit_item': 'Edit Event Category'
+      'update_item': 'Update Event Category'
+      'add_new_item': 'Add New Event Category'
+      'new_item_name': 'New Event Category'
+      'menu_name': 'Event Category'
+    'slug': 'event-category' # This controls the base slug that will display before each term
+    'with_front': true # Don't display the category base before "/locations/"
+    'hierarchical': false # This will allow URL's like "/locations/boston/cambridge/"
+    'show_ui': true
+    'capabilities':
+        'manage_terms': 'delete_others_posts'
+        'edit_terms': 'delete_others_posts'
+        'delete_terms': 'delete_others_posts'
+        'assign_terms': 'delete_others_posts'
+
+  'tax': 'event_category'
+  'pt':
     'page':
       'id': 'page'
       'show_tax_meta': true
