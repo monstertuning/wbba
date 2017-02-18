@@ -1,7 +1,7 @@
 ---
 
-- name: wp theme activate sage9blade
-  command: wp theme activate sage9blade --allow-root
+- name: wp theme activate sage
+  command: wp theme activate sage --allow-root
   args:
     chdir: "{{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/"
   with_dict: "{{ wordpress_sites }}"
