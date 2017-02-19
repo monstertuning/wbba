@@ -27,6 +27,7 @@
       'attributes': 'attributes'
       'thumbnail': 'thumbnail'
       'author': 'author'
+      'page-attributes': false
     'has_archive': 'news_article'
     'hierarchical': false
     'exclude_from_search': false
@@ -42,8 +43,8 @@
     'map_meta_cap': true
     'register_meta_box_cb': false
     'taxonomies':
-      'category': 'category'
-      'post_tag': 'post_tag'
+      'category': false
+      'post_tag': false
     'query_var': 'news_article'
     'can_export': true
     'show_in_rest': true
@@ -105,7 +106,7 @@
       'attributes': 'attributes'
       'thumbnail': 'thumbnail'
       'author': 'author'
-      'page-attributes': 'page-attributes'
+      'page-attributes': false
     'has_archive': 'photo_gallery'
     'hierarchical': false
     'exclude_from_search': false
@@ -121,8 +122,8 @@
     'map_meta_cap': true
     'register_meta_box_cb': false
     'taxonomies':
-      'category': 'category'
-      'post_tag': 'post_tag'
+      'category': false
+      'post_tag': false
     'query_var': 'photo_gallery'
     'can_export': true
     'show_in_rest': true
@@ -178,9 +179,9 @@
       'title': 'title'
       'editor': 'editor'
       'attributes': 'attributes'
-      #thumbnail': 'thumbnail'
+      'thumbnail': 'thumbnail'
       'author': 'author'
-      'page-attributes': 'page-attributes'
+      'page-attributes': false
     'has_archive': 'coach'
     'hierarchical': false
     'exclude_from_search': false
@@ -196,8 +197,8 @@
     'map_meta_cap': true
     'register_meta_box_cb': false
     'taxonomies':
-      'category': 'category'
-      'post_tag': 'post_tag'
+      'category': false #'category'
+      'post_tag': false #'post_tag'
     'query_var': 'coach'
     'can_export': true
     'show_in_rest': true
@@ -252,9 +253,9 @@
       'title': 'title'
       'editor': 'editor'
       'attributes': 'attributes'
-      thumbnail': 'thumbnail'
+      'thumbnail': 'thumbnail'
       'author': 'author'
-      'page-attributes': 'page-attributes'
+      'page-attributes': false
     'has_archive': 'fighter'
     'hierarchical': false
     'exclude_from_search': false
@@ -270,8 +271,8 @@
     'map_meta_cap': true
     'register_meta_box_cb': false
     'taxonomies':
-      'category': 'category'
-      'post_tag': 'post_tag'
+      'category': false
+      'post_tag': false
     'query_var': 'fighter'
     'can_export': true
     'show_in_rest': true
@@ -329,9 +330,9 @@
       'title': 'title'
       'editor': 'editor'
       'attributes': 'attributes'
-      thumbnail': 'thumbnail'
+      'thumbnail': 'thumbnail'
       'author': 'author'
-      'page-attributes': 'page-attributes'
+      'page-attributes': false
     'has_archive': 'instructor'
     'hierarchical': false
     'exclude_from_search': false
@@ -347,8 +348,8 @@
     'map_meta_cap': true
     'register_meta_box_cb': false
     'taxonomies':
-      'category': 'category'
-      'post_tag': 'post_tag'
+      'category': false
+      'post_tag': false
     'query_var': 'instructor'
     'can_export': true
     'show_in_rest': true
@@ -407,9 +408,9 @@
       'title': 'title'
       'editor': 'editor'
       'attributes': 'attributes'
-      thumbnail': 'thumbnail'
+      'thumbnail': 'thumbnail'
       'author': 'author'
-      'page-attributes': 'page-attributes'
+      'page-attributes': false
     'has_archive': 'program'
     'hierarchical': false
     'exclude_from_search': false
@@ -425,8 +426,8 @@
     'map_meta_cap': true
     'register_meta_box_cb': false
     'taxonomies':
-      'category': 'category'
-      'post_tag': 'post_tag'
+      #'category': 'category'
+      'post_tag': false
     'query_var': 'program'
     'can_export': true
     'show_in_rest': true
@@ -486,10 +487,10 @@
     'supports':
       'title': 'title'
       'editor': 'editor'
-      'attributes': 'attributes'
-      #thumbnail': 'thumbnail'
+      'attributes': false
+      #'thumbnail': 'thumbnail'
       'author': 'author'
-      'page-attributes': 'page-attributes'
+      'page-attributes': false
     'has_archive': 'testimonial'
     'hierarchical': false
     'exclude_from_search': false

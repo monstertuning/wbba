@@ -34,19 +34,23 @@
             <div class="content">
 
                 @if (!empty($meta))
+                    meta :
                     <pre>
                         {{ var_dump($meta) }}
                     </pre>
                 @else
-                    ''
+
                 @endif
-                @if (!empty($featured_image))
+
+
+                {{--@if (!empty($featured_image))
                     <pre>
                         {{ $featured_image }}
                     </pre>
                 @else
-                    ''
-                @endif
+
+
+                @endif--}}
 
                 @yield('content')
             </div>

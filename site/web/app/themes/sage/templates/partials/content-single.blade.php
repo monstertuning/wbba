@@ -1,4 +1,5 @@
-<article @php(post_class())>
+featured image : <br>
+@php(the_post_thumbnail(array(150,150)))<article @php(post_class())>
   <header>
     <h1 class="entry-title">{{ get_the_title() }}</h1>
     @include('partials/entry-meta')
