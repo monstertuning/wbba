@@ -32,6 +32,22 @@
 
         <main class="col-xs-12 col-md-8">
             <div class="content">
+
+                @if (!empty($meta))
+                    <pre>
+                        {{ var_dump($meta) }}
+                    </pre>
+                @else
+                    ''
+                @endif
+                @if (!empty($featured_image))
+                    <pre>
+                        {{ $featured_image }}
+                    </pre>
+                @else
+                    ''
+                @endif
+
                 @yield('content')
             </div>
         </main>

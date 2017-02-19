@@ -101,9 +101,11 @@ class Config extends Repository
         $postMeta = new PostMeta;
         $metaFieldKeysAndTypes = $postMeta->getPostMetaFieldKeysAndTypeByPostType($pt);
         $meta = $postMeta->getPostMetaFieldValuesFromKeys($metaFieldKeysAndTypes, $pt);
-        //$terms = get_terms();c
+        //$terms = get_terms();
 
         $data['meta'] = (isset($meta) ? $meta : null);
+        #$post = get_post();
+        //$data['featured_image'] = get_the_post_thumbnail( get_post());
 
         return $data;
     }
