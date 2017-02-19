@@ -16,7 +16,7 @@
         <div class="col-md-2 hidden-sm wbba-side-area text-center">
             @foreach ($programs as $program)
 
-                @if( $loop->index < 5)
+                @if( $loop->index < 3)
                     <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
                         <div class="image">
                             {!! $program['image'] !!}
@@ -40,7 +40,7 @@
         <div class="col-md-2 hidden-sm wbba-side-area text-center">
             @foreach ($programs as $program)
 
-                @if( $loop->index > 4 && $loop->index < 10)
+                @if( $loop->index > 2 && $loop->index < 6)
                     <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
                         <div class="image">
                             {!! $program['image'] !!}
