@@ -33,14 +33,7 @@
         <main class="col-xs-12 col-md-8">
             <div class="content">
 
-                @if (!empty($meta))
-                    meta :
-                    <pre>
-                        {{ var_dump($meta) }}
-                    </pre>
-                @else
 
-                @endif
 
 
                 {{--@if (!empty($featured_image))
