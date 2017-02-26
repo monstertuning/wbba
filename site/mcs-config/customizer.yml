@@ -50,6 +50,7 @@
       'capability': 'edit_theme_options'
       'theme_supports': ''
 
+
 'fields':
   - 'config_id': 'company_info_config'
     'args':

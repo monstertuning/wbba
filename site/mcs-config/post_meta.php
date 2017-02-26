@@ -184,6 +184,7 @@ $config[] = array(
             'desc' => 'Choose Current Grade',
             'id' => $prefix . 'current_grade',
             'type' => 'select',
+            'show_option_none' => true,
             'options' => array(
                 'white_belt' => __('White Belt'),
                 'blue_belt' => __('Blue Belt'),
@@ -235,13 +236,13 @@ $config[] = array(
             'preview_size' => array(100, 100),
         ),
 
-        array(
+        /*array(
             'name' => __('Program Image', 'cmb2'),
             'desc' => __('Upload or add program image.', 'cmb2'),
             'id' => $prefix . 'program_image',
             'type' => 'file',
             'preview_size' => array(100, 100),
-        ),
+        ),*/
 
 
         array(

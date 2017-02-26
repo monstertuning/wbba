@@ -367,8 +367,7 @@
     "aaemnnosttv/wp-cli-dotenv-command": "1.0.2",
     "dupkey/bs4navwalker": "@dev",
     "wpackagist-plugin/disable-comments": "1.6",
-    "wpackagist-plugin/formidable": "2.02.13",
-    "wpackagist-plugin/timber-library": "~1.1.12",
+    "wpackagist-plugin/formidable": "2.03.03",
     "wpackagist-plugin/press-permit-core": "2.3.16",
     "wpackagist-plugin/manual-image-crop": "1.12",
     "wpackagist-plugin/duplicate-post": "3.1.2",
@@ -378,7 +377,7 @@
     "wpackagist-plugin/fakerpress": "0.4.7",
     "wpackagist-plugin/rvg-optimize-database": "4.2.1",
     "wpackagist-plugin/monkeyman-rewrite-analyzer": "1.0",
-    "wpackagist-plugin/post-types-order": "1.9",
+    "wpackagist-plugin/post-types-order": "1.9.3",
     "wpackagist-plugin/simple-page-ordering": "2.2.4",
     "wpackagist-plugin/floating-social-bar": "1.1.7",
     "wpackagist-plugin/codepress-admin-columns": "2.5.6.4",
@@ -395,7 +394,7 @@
     "wpackagist-plugin/wp-export-categories-taxonomies":"1.0.3",
     "wpackagist-plugin/wordpress-importer":"0.6.3",
     "wpackagist-plugin/monkeyman-rewrite-analyzer":"1.0",
-    "wpackagist-plugin/query-monitor": "2.13.2"
+    "wpackagist-plugin/query-monitor": "2.13.3"
   },
 
   "scripts": {

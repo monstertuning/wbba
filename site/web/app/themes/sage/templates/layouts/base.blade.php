@@ -13,17 +13,21 @@
 <div class="wrap container" role="document">
     <div class="content row">
 
-        <div class="col-md-2 hidden-sm wbba-side-area text-center">
+        <div class="col-md-2 hidden-sm wbba-side-area text-sm-center">
             @foreach ($programs as $program)
 
                 @if( $loop->index < 3)
-                    <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
-                        <div class="image">
-                            {!! $program['image'] !!}
-                        </div>
-                    </a>
-                    <div class="program-title">{{ $program['title'] }}</div>
-                    <div class="program-ages">{{ $program['ages'] }}</div>
+                    <div class="program-image mx-auto">
+                        <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
+                            <div class="image">
+                                {!! $program['image'] !!}
+                            </div>
+                        </a>
+                    </div>
+                    <div class="program-info mx-auto">
+                        <div class="program-title">{{ $program['title'] }}</div>
+                        <div class="program-ages">{{ $program['ages'] }}</div>
+                    </div>
                 @endif
 
             @endforeach
@@ -32,37 +36,26 @@
 
         <main class="col-xs-12 col-md-8">
             <div class="content">
-
-
-
-
-                {{--@if (!empty($featured_image))
-                    <pre>
-                        {{ $featured_image }}
-                    </pre>
-                @else
-
-
-                @endif--}}
-
                 @yield('content')
             </div>
         </main>
 
 
-        <div class="col-md-2 hidden-sm wbba-side-area text-center">
+        <div class="col-md-2 hidden-sm wbba-side-area text-sm-center">
             @foreach ($programs as $program)
-
                 @if( $loop->index > 2 && $loop->index < 6)
-                    <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
-                        <div class="image">
-                            {!! $program['image'] !!}
-                        </div>
-                    </a>
-                    <div class="program-title">{{ $program['title'] }}</div>
-                    <div class="program-ages">{{ $program['ages'] }}</div>
+                    <div class="program-image mx-auto">
+                        <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
+                            <div class="image">
+                                {!! $program['image'] !!}
+                            </div>
+                        </a>
+                    </div>
+                    <div class="program-info mx-auto">
+                        <div class="program-title">{{ $program['title'] }}</div>
+                        <div class="program-ages">{{ $program['ages'] }}</div>
+                    </div>
                 @endif
-
             @endforeach
         </div>
 
