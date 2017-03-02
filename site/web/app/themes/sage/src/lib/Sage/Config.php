@@ -5,6 +5,7 @@ namespace Roots\Sage;
 use \Illuminate\Config\Repository;
 use MedusaContentSuite\Config\Globals as McsGlobals;
 use MedusaContentSuite\CMB\Meta\PostMeta;
+use MedusaContentSuite\Helpers as Helpers;
 use MedusaContentSuite\Config\Menus;
 
 class Config extends Repository
@@ -152,6 +153,8 @@ class Config extends Repository
         $address_str .= ' Tel: ' . $data['phone1'];
         $data['address_str'] = $address_str;
 
+        $data['title'] = $this->getHelpers()->mmcTitle();
+
         return $data;
     }
 
@@ -177,9 +180,12 @@ class Config extends Repository
     {
         $pt = get_post_type();
 
+        //$data['teaser'] =
+
+        $data['image'] = $this->getMcsGlobals()->getArchiveTeaserImageSnippet();
+
         //$data['pt_archive_title'] = $pt_archive_title;
-        
-        return $data;
+                return $data;
     }
 
 
@@ -201,10 +207,14 @@ class Config extends Repository
         return $this;
     }
 
-
     protected function getMcsGlobals()
     {
         return new McsGlobals;
+    }
+
+    protected function getHelpers()
+    {
+        return new Helpers;
     }
 
 }

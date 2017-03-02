@@ -1,5 +1,6 @@
 featured image : <br>
-@php(the_post_thumbnail(array(150,150)))<article @php(post_class())>
+@php(the_post_thumbnail(array(150,150)))
+<article @php(post_class())>
   <br>
   @if (!empty($meta))
     meta : <br>

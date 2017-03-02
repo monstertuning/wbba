@@ -61,6 +61,19 @@
     'create_dummy_posts': false
     'url_query_vars': 'news_article'
     'can_export': true
+    'pt_archive_title': 'News Articles'
+    'pt_archive_show_entry_meta': true
+    'pt_archive_teaser':
+      'image':
+        'show': true
+        'size': 'array(50,50)'
+        'type': 'featured'
+      'excerpt':
+        'show': true
+        'length': 30
+        'read_more_link': 'More!!'
+
+
 
 
 
@@ -140,6 +153,7 @@
     'create_dummy_posts': false
     'url_query_vars': 'photo_gallery'
     'can_export': true
+    'pt_archive_title': 'Photo Galleries'
     'pt_archive_show_entry_meta': false
 
 
@@ -216,6 +230,7 @@
     'create_dummy_posts': false
     'url_query_vars': 'coach'
     'can_export': true
+    'pt_archive_title': 'Coaches'
     'pt_archive_show_entry_meta': false
 
 
@@ -370,6 +385,7 @@
     'create_dummy_posts': false
     'url_query_vars': 'instructor'
     'can_export': true
+    'pt_archive_title': 'Instructors'
     'pt_archive_show_entry_meta': false
 
 
@@ -449,6 +465,7 @@
     'create_dummy_posts': false
     'url_query_vars': 'program'
     'can_export': true
+    'pt_archive_title': 'Programs'
     'pt_archive_show_entry_meta': false
 
 
@@ -529,6 +546,7 @@
     'create_dummy_posts': false
     'url_query_vars': 'testimonial'
     'can_export': true
+    'pt_archive_title': 'Testimonials'
     'pt_archive_show_entry_meta': false
 
 

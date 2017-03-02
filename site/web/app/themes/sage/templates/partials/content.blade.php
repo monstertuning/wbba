@@ -8,4 +8,7 @@
   <div class="entry-summary">
     @php(the_excerpt())
   </div>
+  <div class="post-image thumb featured">
+    @php(the_post_thumbnail(array(120,120)))
+  </div>
 </article>

@@ -6,4 +6,8 @@
 'copy_home_page_for_sub_sites': true
 'show_home_in_nav_menu': true
 'error_page_id': 8
-'templating': 'timber'
+'defaults': #mandatory @todo needs yaml checker
+  'archive':
+    'image':
+      'size': 'array(20,20)'
+      'type': 'featured'
