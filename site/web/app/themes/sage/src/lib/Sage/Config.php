@@ -124,10 +124,10 @@ class Config extends Repository
         $mmcData = get_option('mmc');
 
         $headerImgId = attachment_url_to_postid( $mmcData['company_logo'] );
-        $footerImgId = attachment_url_to_postid( get_theme_mod( 'wbba-bg-image' ) );
+        $companyBgImgId = attachment_url_to_postid( $mmcData['company_bg_image'] );
 
         $data['site_logo'] = wp_get_attachment_image( $headerImgId, 'thumb-width-400', false,  $attr );
-        $data['bg_image'] = wp_get_attachment_image( $footerImgId, '', false,  $attr );
+        $data['bg_image'] = wp_get_attachment_image_url( $companyBgImgId, '' );
 
         $data['social_links'] = $mmcData['social_media_setting'];
         $data['tagline'] = get_bloginfo('description');
