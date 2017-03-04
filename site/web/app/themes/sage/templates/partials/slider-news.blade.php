@@ -32,7 +32,7 @@
 
 
 
-<div id="home-carousel" class="carousel slide" data-ride="carousel">
+<div id="home-carousel-news" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
         @foreach( $data as $article )
             <div class="carousel-item @if ($loop->first) active @endif">
@@ -63,13 +63,13 @@
         <span class="sr-only">Next</span>
     </a>--}}
 
-    <a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <a class="left carousel-control carousel-control-left" href="#home-carousel-news" role="button" data-slide="prev">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
         <span class="sr-only">Previous</span>
     </a>
 
-    <a class="right carousel-control" href="#home-carousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <a class="right carousel-control carousel-control-right" href="#home-carousel-news" role="button" data-slide="next">
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
         <span class="sr-only">Next</span>
     </a>
 

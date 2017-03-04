@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Armata');
 
 body{
   background-color: $color-black !important;
@@ -9,30 +11,56 @@ body, p, h1{
   font-family: 'Droid Sans', sans-serif;
 }
 
+p, td, span, div {
+  text-shadow: 1px 1px 1px #000000;
+}
+
 .main-wrapper{
   background: rgba(0, 0, 0, 0.65);
 }
 
-.list{
+.list-block, article{
   //background: rgba(255, 255, 255, 0.18);
   background: none repeat scroll 0 0 rgba(180, 186, 205, 0.26);
-  margin: 5px 0px 5px 0px;
+  margin: 10px 0;
   border: none !important;
   padding: 10px;
+  min-height: 152px;
 }
 
-h1 {
-  background-color: rgba(255, 255, 255, 0.23);
-  text-shadow: 2px 2px 2px #000;
-  padding: 10px;
-  display: block;
-  margin-bottom: 10px;
-  margin-top: 5px;
-  //background-image: url(images/bg-yinyan.png);
-  background-repeat: no-repeat;
-  background-position: 100% -10px;
+article .thumb{
+  float: right;
+  margin: 0 0 10px 10px;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 6px;
 }
 
+h1, h2, h3 {
+  font-family: 'Armata', sans-serif;
+}
+
+h2.entry-title{
+  font-size: 16pt;
+}
+
+#page-header {
+  margin: 15px 0 0 0;
+  h1 {
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.23);
+    text-shadow: 2px 2px 2px #000;
+    padding: 10px 10px 8px 10px;
+    display: block;
+    margin: 0;
+    /*margin-bottom: 10px;
+    margin-top: 5px;*/
+    //background-image: url(images/bg-yinyan.png);
+    background-repeat: no-repeat;
+    background-position: 100% -10px;
+    font-size: 23pt;
+  }
+}
 .wbba-side-area {
   margin: 0;
   height: 100%;
@@ -56,11 +84,15 @@ h1 {
   text-transform: uppercase;
 }
 
-.wbba-side-area .icon span {
+.wbba-side-area .icon div {
   display: block;
   font-size: 11pt;
   line-height: 13pt;
   text-shadow: 1px 1px 1px #000000;
+}
+
+.wbba-side-area .icon .age {
+  color: #986600;
 }
 
 
@@ -69,9 +101,28 @@ h1 {
   margin-bottom: 4px;
   padding: 4px;
   background: rgba(255, 255, 255, 0.1);
-
-  max-width: 90%;
-
+  max-width: 100%;
   box-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+}
 
+
+.carousel{
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #333333;
+
+  .text{
+    padding: 10px 0 0 0;
+  }
+
+  h2{
+    font-family: 'Armata', sans-serif;
+    margin: 0 0 5px 0;
+    font-size: 18pt;
+  }
+}
+
+
+#content p:last-child {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }

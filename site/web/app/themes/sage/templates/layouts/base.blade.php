@@ -11,22 +11,22 @@
 @php(do_action('get_header'))
 @include('partials.header')
 <div class="main-wrapper wrap container" role="document">
-    <div class="content row">
+    <div class="row">
 
         <div class="col-md-2 hidden-sm-down wbba-side-area text-sm-center">
             @foreach ($programs as $program)
 
                 @if( $loop->index < 3)
-                    <div class="program-image mx-auto">
+                    <div class="mx-auto icon">
                         <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
                             <div class="image">
                                 {!! $program['image'] !!}
                             </div>
                         </a>
-                    </div>
-                    <div class="program-info mx-auto">
-                        <div class="program-title">{{ $program['title'] }}</div>
-                        <div class="program-ages">{{ $program['ages'] }}</div>
+                        <div class="info">
+                            <div class="title">{{ $program['title'] }}</div>
+                            <div class="age">{{ $program['ages'] }}</div>
+                        </div>
                     </div>
                 @endif
 
@@ -35,7 +35,7 @@
 
 
         <main class="col-sm-12 col-md-8">
-            <div class="content">
+            <div id="content">
                 @yield('content')
             </div>
         </main>
@@ -44,16 +44,16 @@
         <div class="col-md-2 hidden-sm-down wbba-side-area text-sm-center">
             @foreach ($programs as $program)
                 @if( $loop->index > 2 && $loop->index < 6)
-                    <div class="program-image mx-auto">
+                    <div class="mx-auto icon">
                         <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
                             <div class="image">
                                 {!! $program['image'] !!}
                             </div>
                         </a>
-                    </div>
-                    <div class="program-info mx-auto">
-                        <div class="program-title">{{ $program['title'] }}</div>
-                        <div class="program-ages">{{ $program['ages'] }}</div>
+                        <div class="info">
+                            <div class="title">{{ $program['title'] }}</div>
+                            <div class="age">{{ $program['ages'] }}</div>
+                        </div>
                     </div>
                 @endif
             @endforeach
