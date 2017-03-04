@@ -35,20 +35,24 @@
     </div>
     <div class="container">
         <div class="row text-sm-center ">
-            <div class="mx-auto" id="menu-wrapper">
-                {{--<a class="brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>--}}
+            <div class="mx-auto col-md-12" id="main-nav-wrapper">
+                <div class="main-nav">
+                    {{--<a class="brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>--}}
 
-                {{--<nav class="nav-primary">
-                    @if (has_nav_menu('primary_navigation'))
-                        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
-                    @endif
-                </nav>--}}
+                    {{--<nav class="nav-primary">
+                        @if (has_nav_menu('primary_navigation'))
+                            {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
+                        @endif
+                    </nav>--}}
 
-                <nav class="nav-primary">
-                    @if (has_nav_menu('primary_navigation'))
-                        {!! $primary_menu !!}
-                    @endif
-                </nav>
+                    <nav class="nav-primary">
+                        @if (has_nav_menu('primary_navigation'))
+                            {!! $primary_menu !!}
+                        @endif
+                    </nav>
+
+                </div>
+
 
             </div>
 

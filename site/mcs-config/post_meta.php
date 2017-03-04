@@ -85,8 +85,8 @@ $config[] = array(
             'id' => $prefix . 'featured_news_article',
             'type' => 'select',
             'options' => array(
-                'no' => __('No', 'cmb2'),
-                'yes' => __('Yes', 'cmb2'),
+                'false' => __('No', 'cmb2'),
+                'true' => __('Yes', 'cmb2'),
             ),
         ),
 

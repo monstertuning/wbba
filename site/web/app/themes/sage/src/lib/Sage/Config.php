@@ -90,7 +90,8 @@ class Config extends Repository
             'author'	   => '',
             'author_name'	   => '',
             'post_status'      => 'publish',
-            'suppress_filters' => true
+            'suppress_filters' => true,
+
         );
 
         $programs = get_posts( $args );
@@ -104,8 +105,8 @@ class Config extends Repository
 
             $programs2[$x]['image'] = get_the_post_thumbnail(
                 $program->ID,
-                array( 120, 120),
-                array( "class" => "img-responsive" )
+                array( 150, 150),
+                array( "class" => "img-fluid" )
             );
 
             $programs2[$x]['ages'] = get_post_meta( $program->ID, '_cmb_program_options__cmb_program_options_suitable_ages', true);
@@ -116,7 +117,7 @@ class Config extends Repository
         $data['programs'] = $programs2;
 
         $attr = array(
-            'class' => 'image img-responsive',
+            'class' => 'image img-fluid',
             'alt'   => 'vvvvvvvvvvv',
             'title'   => 'vvvvvvvvvvv',
         );
@@ -185,7 +186,8 @@ class Config extends Repository
         $data['image'] = $this->getMcsGlobals()->getArchiveTeaserImageSnippet();
 
         //$data['pt_archive_title'] = $pt_archive_title;
-                return $data;
+
+        return $data;
     }
 
 

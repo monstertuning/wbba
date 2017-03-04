@@ -10,10 +10,10 @@
 <![endif]-->
 @php(do_action('get_header'))
 @include('partials.header')
-<div class="wrap container" role="document">
+<div class="main-wrapper wrap container" role="document">
     <div class="content row">
 
-        <div class="col-md-2 hidden-sm wbba-side-area text-sm-center">
+        <div class="col-md-2 hidden-sm-down wbba-side-area text-sm-center">
             @foreach ($programs as $program)
 
                 @if( $loop->index < 3)
@@ -34,14 +34,14 @@
         </div>
 
 
-        <main class="col-xs-12 col-md-8">
+        <main class="col-sm-12 col-md-8">
             <div class="content">
                 @yield('content')
             </div>
         </main>
 
 
-        <div class="col-md-2 hidden-sm wbba-side-area text-sm-center">
+        <div class="col-md-2 hidden-sm-down wbba-side-area text-sm-center">
             @foreach ($programs as $program)
                 @if( $loop->index > 2 && $loop->index < 6)
                     <div class="program-image mx-auto">

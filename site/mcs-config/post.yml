@@ -431,6 +431,7 @@
       'attributes': 'attributes'
       'thumbnail': 'thumbnail'
       'author': 'author'
+      'excerpt': 'excerpt'
       'page-attributes': false
     'has_archive': 'program'
     'hierarchical': false

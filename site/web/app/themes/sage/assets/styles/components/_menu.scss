@@ -1,0 +1,32 @@
+#main-nav-wrapper {
+  /*clear: both;
+  margin: 0 auto;
+  display: block;
+
+  width: 99.86%;*/
+  background: #ba8129;
+  background: -moz-linear-gradient(top, #ba8129 0%, #241a09 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ba8129), color-stop(100%,#241a09));
+  background: -webkit-linear-gradient(top, #ba8129 0%,#241a09 100%);
+  background: -o-linear-gradient(top, #ba8129 0%,#241a09 100%);
+  background: -ms-linear-gradient(top, #ba8129 0%,#241a09 100%);
+  background: linear-gradient(to bottom, #ba8129 0%,#241a09 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ba8129', endColorstr='#241a09',GradientType=0 );
+  background: linear-gradient(to bottom, rgba(186, 129, 41, 1) 0%, rgba(36, 26, 9, 1) 100%) repeat scroll 0 0 transparent;
+  /* background: linear-gradient(to bottom, rgba(57, 61, 72, 0.7) 0%, rgba(39, 42, 49, 0.3) 100%) repeat scroll 0 0 transparent; */
+  border-left: 1px solid #333333;
+  border-right: 1px solid #333333;
+}
+
+.main-nav {
+  background: none;
+  display: table;
+  margin: 0 auto;
+  white-space: nowrap;
+
+  clear: both;
+}
+
+p, td, span, div {
+  text-shadow: 1px 1px 1px #000000;
+}
