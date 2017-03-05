@@ -19,5 +19,6 @@ const routes = {
   aboutUs,
 };
 
+
 // Load Events
 jQuery(document).ready(() => new Router(routes).loadEvents());

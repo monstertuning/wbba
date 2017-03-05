@@ -103,13 +103,16 @@ class Config extends Repository
             $programs2[$x]['title'] = $program->post_title;
             $programs2[$x]['link'] = get_permalink( $program->ID );
 
-            $programs2[$x]['image'] = get_the_post_thumbnail(
-                $program->ID,
+            $iconId = get_post_meta($program->ID, '_cmb_program_options__cmb_program_options_program_icon_image_id', true);
+
+            $programs2[$x]['image'] = wp_get_attachment_image(
+                $iconId,
                 array( 150, 150),
+                false,
                 array( "class" => "img-fluid" )
             );
 
-            $programs2[$x]['ages'] = get_post_meta( $program->ID, '_cmb_program_options__cmb_program_options_suitable_ages', true);
+            $programs2[$x]['ages'] = get_post_meta( $program->ID, '_cmb_program_options__cmb_program_options_suitable_ages', true) . ' years';
 
             $x++;
         }
@@ -161,6 +164,7 @@ class Config extends Repository
 
     public function ptSingleData( $data )
     {
+        global $post;
         //$metaTest =  get_post_meta($post->ID);
         $pt = get_post_type();
         //$metaBoxTitle = PostMeta::getPostMetaBoxIdByPostType($pt);
@@ -170,6 +174,10 @@ class Config extends Repository
         //$terms = get_terms();
 
         $data['meta'] = (isset($meta) ? $meta : null);
+
+        if($pt == 'program'){
+            $data['featured_image'] = get_the_post_thumbnail($post, 'article-header');
+        }
         #$post = get_post();
         //$data['featured_image'] = get_the_post_thumbnail( get_post());
 

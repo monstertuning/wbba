@@ -389,7 +389,8 @@
     "wpackagist-plugin/user-role-editor": "4.31.1",
     "wp-plugin-repo-pro/enhanced-media-library-pro": "2.3.6",
     "wpackagist-plugin/force-regenerate-thumbnails": "2.0.6",
-    "wpackagist-plugin/ajax-thumbnail-rebuild": "1.12"
+    "wpackagist-plugin/ajax-thumbnail-rebuild": "1.12",
+    "wpackagist-plugin/post-thumbnail-editor": "2.4.8"
   },
 
   "require-dev": {    

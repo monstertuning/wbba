@@ -19,12 +19,16 @@ p, td, span, div {
   background: rgba(0, 0, 0, 0.65);
 }
 
-.list-block, article{
+.list-block, .archive article{
   //background: rgba(255, 255, 255, 0.18);
   background: none repeat scroll 0 0 rgba(180, 186, 205, 0.26);
   margin: 10px 0;
   border: none !important;
   padding: 10px;
+
+}
+
+article{
   min-height: 152px;
 }
 
@@ -36,8 +40,41 @@ article .thumb{
   padding: 6px;
 }
 
-h1, h2, h3 {
+h1, h2, h3,
+.tinymce h1, .tinymce h2, .tinymce h3
+{
   font-family: 'Armata', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1, article h1, .tinymce h1{
+  font-size: 1.7rem;
+}
+
+h2, article h2, .tinymce h2{
+  font-size: 1.4rem;
+}
+
+
+h3, article h3, .tinymce h3{
+  font-size: 1.2rem;
+}
+
+
+article h4, article h5, article h6,
+.tinymce h4, .tinymce h5, .tinymce h6
+
+{
+  font-size: 1rem;
+}
+
+.entry-meta{
+  margin-top: $margin-width;
+  margin-bottom: $margin-width * 2;
+  font-size: 11pt;
 }
 
 h2.entry-title{
@@ -59,8 +96,15 @@ h2.entry-title{
     background-repeat: no-repeat;
     background-position: 100% -10px;
     font-size: 23pt;
+    line-height: 30pt;
   }
 }
+
+.entry-content{
+  margin-top: $margin-width;
+  margin-bottom: $margin-width;
+}
+
 .wbba-side-area {
   margin: 0;
   height: 100%;
@@ -110,6 +154,8 @@ h2.entry-title{
   background: rgba(0, 0, 0, 0.6);
   border: 1px solid #333333;
 
+  height: 349px;
+
   .text{
     padding: 10px 0 0 0;
   }
@@ -119,10 +165,15 @@ h2.entry-title{
     margin: 0 0 5px 0;
     font-size: 18pt;
   }
+
 }
 
 
 #content p:last-child {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.image.featured.program{
+  margin-bottom: $margin-width;
 }

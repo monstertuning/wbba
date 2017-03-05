@@ -12,6 +12,7 @@
   @endif--}}
 
   <header id="page-header">
+    <div class="image featured program">{!! $featured_image !!}</div>
     <h1 class="entry-title">{{ get_the_title() }}</h1>
     @if(MedusaContentSuite\Config\Globals::showEntryMetaOnSingle())
       @include('partials/entry-meta')

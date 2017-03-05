@@ -6,7 +6,7 @@
   @endif
   <header>
     <h2 class="entry-title"><a href="{{ get_permalink() }}">{{ get_the_title() }}</a></h2>
-    @if(MedusaContentSuite\Config\Globals::showEntryMeta())
+    @if(MedusaContentSuite\Config\Globals::showEntryMetaOnArchive())
       @include('partials/entry-meta')
     @endif
   </header>
