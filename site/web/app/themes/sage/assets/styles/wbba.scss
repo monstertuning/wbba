@@ -212,3 +212,18 @@ article .prices.title {
   }
 }
 
+.social-icons {
+  margin-top: 10px;
+  i{
+    font-size: 30pt;
+    //color: $color-gold;
+    margin-right: 10px;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+.tagline{
+  margin-top: 10px;
+}

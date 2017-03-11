@@ -22,11 +22,11 @@
             <div class="col-sm-3 text-sm-right">
                 <div class="social-icons ">
                     @foreach($company_info['social_links'] as $social_link)
-                    <div class="icon-item">
+                    <span class="icon-item">
                         <a href="{{ $social_link['link_url'] }}" target="_blank">
                             <i class="{{ $social_link['css_classes'] }}"></i>
                         </a>
-                    </div>
+                    </span>
                     @endforeach
                 </div>
             </div>
