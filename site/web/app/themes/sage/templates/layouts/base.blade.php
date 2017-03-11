@@ -12,54 +12,17 @@
 @include('partials.header')
 <div class="main-wrapper wrap container" role="document">
     <div class="row">
-
         <div class="col-md-2 hidden-sm-down wbba-side-area text-sm-center">
-            @foreach ($programs as $program)
-
-                @if( $loop->index < 3)
-                    <div class="mx-auto icon">
-                        <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
-                            <div class="image">
-                                {!! $program['image'] !!}
-                            </div>
-                        </a>
-                        <div class="info">
-                            <div class="title">{{ $program['title'] }}</div>
-                            <div class="age">{{ $program['ages'] }}</div>
-                        </div>
-                    </div>
-                @endif
-
-            @endforeach
+            @include('partials.program-icons', ['start' => -1, 'end' => 3])
         </div>
-
-
         <main class="col-sm-12 col-md-8">
             <div id="content">
                 @yield('content')
             </div>
         </main>
-
-
         <div class="col-md-2 hidden-sm-down wbba-side-area text-sm-center">
-            @foreach ($programs as $program)
-                @if( $loop->index > 2 && $loop->index < 6)
-                    <div class="mx-auto icon">
-                        <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
-                            <div class="image">
-                                {!! $program['image'] !!}
-                            </div>
-                        </a>
-                        <div class="info">
-                            <div class="title">{{ $program['title'] }}</div>
-                            <div class="age">{{ $program['ages'] }}</div>
-                        </div>
-                    </div>
-                @endif
-            @endforeach
+            @include('partials.program-icons', ['start' => 2, 'end' => 6])
         </div>
-
-
     </div>
 @php(do_action('get_footer'))
 @include('partials.footer')

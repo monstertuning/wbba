@@ -233,6 +233,7 @@
     'can_export': true
     'pt_archive_title': 'Coaches'
     'pt_archive_show_entry_meta': false
+    'single_show_entry_meta': false
 
 
 
@@ -309,6 +310,7 @@
     'can_export': true
     'pt_archive_title': 'WBBA Fight Team'
     'pt_archive_show_entry_meta': false
+    'single_show_entry_meta': false
 
 
 
@@ -388,6 +390,7 @@
     'can_export': true
     'pt_archive_title': 'Instructors'
     'pt_archive_show_entry_meta': false
+    'single_show_entry_meta': false
 
 
 
@@ -551,5 +554,84 @@
     'can_export': true
     'pt_archive_title': 'Testimonials'
     'pt_archive_show_entry_meta': false
+    'single_show_entry_meta': false
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 'name': 'Test Content'
+  'args':
+    'labels':
+      'name': 'Test Content'
+      'singular_name': 'Testimonial'
+      'add_new': 'Add New'
+      'add_new_item': 'Add New Test Content'
+      'edit_item': 'Edit Test Content'
+      'new_item': 'New Test Content'
+      'all_items': 'All Test Content'
+      'view_item': 'View Test Content'
+      'not_found': 'No Test Content found'
+      'not_found_in_trash': 'No Test Content found in the Trash'
+      'parent_item_colon': ''
+      'menu_name': 'Test Content'
+    'rewrite':
+      'slug': 'test_content'
+      'with_front': true
+      'feed': true
+      'pages': true
+    'description': 'Holds our Test Content and Test Content data'
+    'public': true
+    'menu_position': 20
+    'supports':
+      'title': 'title'
+      'editor': 'editor'
+      'attributes': false
+      'thumbnail': 'thumbnail'
+      'author': 'author'
+      'page-attributes': false
+    'has_archive': 'test_content'
+    'hierarchical': false
+    'exclude_from_search': false
+    'publicly_queryable': true
+    'show_ui': true
+    'show_in_menu': true
+    'show_in_admin_bar': true
+    'show_in_nav_menus': true
+    'menu_icon': 'dashicons-admin-page'
+#    'capability_type': 'testimonial'
+#    'capabilities':
+#      'testimonial': 'testimonial'
+    'map_meta_cap': true
+    'register_meta_box_cb': false
+    'taxonomies':
+      'test': 'test'
+    'query_var': 'test_content'
+    'can_export': true
+    'show_in_rest': true
+  'type': 'test_content'
+  'extras':
+    'sidebars': false
+    'mu_main_site_only': false
+    'sub_site_only': false
+    'columns': false
+    'default_category_tax': true
+    'show_in_nav_menu': true
+    'nav_menu_position': 1
+    'show_posts_in_nav_menu': true
+    'create_dummy_posts': false
+    'url_query_vars': 'test_content'
+    'can_export': true
+    'pt_archive_title': 'Test Content'
+    'pt_archive_show_entry_meta': false
+    'single_show_entry_meta': false
 
 

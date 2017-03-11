@@ -357,7 +357,7 @@
     "php": ">=7",
     "composer/installers": "1.0.25",
     "vlucas/phpdotenv": "2.0.1",
-    "johnpbloch/wordpress": "4.7.2",
+    "johnpbloch/wordpress": "4.7.3",
     "oscarotero/env": "1.0",
     "WebDevStudios/CMB2-Date-Range-Field": "*",
     "jajouka/medusa-content-suite": "@dev",
@@ -390,7 +390,9 @@
     "wp-plugin-repo-pro/enhanced-media-library-pro": "2.3.6",
     "wpackagist-plugin/force-regenerate-thumbnails": "2.0.6",
     "wpackagist-plugin/ajax-thumbnail-rebuild": "1.12",
-    "wpackagist-plugin/post-thumbnail-editor": "2.4.8"
+    "wpackagist-plugin/post-thumbnail-editor": "2.4.8",
+    "soberwp/controller": "1.0.0-beta1.2",
+    "wpackagist-plugin/wp-google-fonts": "v3.1.4"
   },
 
   "require-dev": {    

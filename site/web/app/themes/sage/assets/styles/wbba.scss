@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Armata');
+
+body{
+  background-color: $color-black !important;
+}
+
+body, p, h1{
+  color: $color-white;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+p, td, span, div {
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.main-wrapper{
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.list-block{
+  //background: rgba(255, 255, 255, 0.18);
+  background: none repeat scroll 0 0 rgba(180, 186, 205, 0.26);
+  border: none !important;
+  padding: 10px;
+  margin-bottom: $margin-width;
+}
+
+.archive article{
+  @extend .list-block;
+}
+
+article{
+  min-height: 152px;
+}
+
+article .thumb{
+  float: right;
+  margin: 0 0 10px 10px;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 6px;
+}
+
+h1, h2, h3,
+.tinymce h1, .tinymce h2, .tinymce h3
+{
+  font-family: 'Armata', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1, article h1, .tinymce h1{
+  font-size: 1.7rem;
+}
+
+h2, article h2, .tinymce h2{
+  font-size: 1.4rem;
+}
+
+
+h3, article h3, .tinymce h3{
+  font-size: 1.2rem;
+}
+
+
+article h4, article h5, article h6,
+.tinymce h4, .tinymce h5, .tinymce h6
+
+{
+  font-size: 1rem;
+}
+
+.entry-meta{
+  margin-top: $margin-width;
+  margin-bottom: $margin-width * 2;
+  font-size: 11pt;
+}
+
+h2.entry-title{
+  font-size: 16pt;
+}
+
+#page-header {
+  margin: 15px 0 0 0;
+  h1 {
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.23);
+    text-shadow: 2px 2px 2px #000;
+    padding: 10px 10px 8px 10px;
+    display: block;
+    margin: $margin-width 0;
+    /*margin-bottom: 10px;
+    margin-top: 5px;*/
+    //background-image: url(images/bg-yinyan.png);
+    background-repeat: no-repeat;
+    background-position: 100% -10px;
+    font-size: 23pt;
+    line-height: 30pt;
+  }
+}
+
+.entry-content{
+  margin-top: $margin-width;
+  margin-bottom: $margin-width;
+}
+
+.wbba-side-area {
+  margin: 0;
+  height: 100%;
+  padding-top: 15px;
+  border-left: #333333 1px solid;
+  border-right: #333333 1px solid;
+  background: rgba(255, 255, 255, 0.13);
+  -moz-box-shadow: inset 0 0 4px #000000;
+  -webkit-box-shadow: inset 0 0 4px #000000;
+  box-shadow: inset 0 0 4px #000000;
+}
+
+.wbba-side-area > div {
+  /*padding: 0 10%;*/
+}
+
+
+.wbba-side-area .icon {
+  text-align: center;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.wbba-side-area .icon div {
+  display: block;
+  font-size: 11pt;
+  line-height: 13pt;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.wbba-side-area .icon .age {
+  color: #986600;
+}
+
+
+.wbba-side-area .image img {
+  border: #333333 1px solid;
+  margin-bottom: 4px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  max-width: 100%;
+  box-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+}
+
+
+//@media only screen and (max-width: 768px)
+
+
+.carousel{
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #333333;
+
+  .text{
+    padding:  15px 0 0;
+    .wrap{
+      padding: 15px;
+    }
+  }
+
+  h2{
+    font-family: 'Armata', sans-serif;
+    margin: 0 0 5px 0;
+    font-size: 18pt;
+  }
+
+  .image{
+    padding-right: 0;
+  }
+
+}
+
+.home .carousel{
+  margin-top: $margin-width;
+}
+
+#content p:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+article ul{
+  margin-top: 10px;
+}
+
+.image.featured.program{
+  margin-bottom: $margin-width;
+}
+
+article .prices.title {
+  padding: 0;
+  margin-bottom: $margin-width/2;
+
+  h2 {
+    padding: 7px 5px;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Armata', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 1px 1px #000000;
+    font-size: 12pt;
+  }
+}
+

@@ -5,11 +5,9 @@
   @php(wp_head())
 
     <style>
-
         body{
-            background: url({!! $bg_image !!}) no-repeat center top;
+            background: url({!! $company_info['bg_image']!!}) no-repeat center top;
         }
-
     </style>
 
 </head>

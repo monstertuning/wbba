@@ -1,8 +1,6 @@
 <?php
 
-
 $config = array();
-
 
 #_cmb_media_options_
 
@@ -32,7 +30,7 @@ $config[] = array(
 
 #_cmb_photo_gallery_options_
 
-$prefix = '_cmb_photo_gallery_options_';
+/*$prefix = '_cmb_photo_gallery_options_';
 $config[] = array(
     'id' => 'metabox_photo_gallery_options',
     'prefix' => $prefix,
@@ -46,7 +44,7 @@ $config[] = array(
         array(
             'name' => 'Description',
             'desc' => 'Type your description for the photo galleries',
-            'id' => 'description',
+            'id' => $prefix . 'description',
             'type' => 'wysiwyg',
             'options' => array(
                 'wpautop' => true,
@@ -63,7 +61,7 @@ $config[] = array(
             ),
         ),
     )
-);
+);*/
 
 
 #_cmb_news_article_options_
@@ -82,15 +80,16 @@ $config[] = array(
         array(
             'name' => 'Featured News Article?',
             'desc' => 'Select if you would like this article to feature on the home page',
-            'id' => $prefix . 'featured_news_article',
+            'id' => $prefix . 'featured',
             'type' => 'select',
             'options' => array(
                 'false' => __('No', 'cmb2'),
                 'true' => __('Yes', 'cmb2'),
             ),
+            'default' => 'false'
         ),
 
-        array(
+        /*array(
             'name' => 'Related Galleries',
             'desc' => 'Choose Related Galleries',
             'id' => $prefix . 'related_galleries',
@@ -99,7 +98,7 @@ $config[] = array(
             'post_type' => 'photo_galleries',
             'select_type' => 'radio',
             'select_behavior' => 'replace',
-        ),
+        ),*/
 
     )
 );
@@ -121,12 +120,13 @@ $config[] = array(
         array(
             'name' => 'Featured Fighter?',
             'desc' => 'Select if you would like this fighter to appear at the top of lists',
-            'id' => $prefix . 'featured_fighter',
+            'id' => $prefix . 'featured',
             'type' => 'select',
             'options' => array(
-                'no' => __('No', 'cmb2'),
-                'yes' => __('Yes', 'cmb2'),
+                'false' => __('No', 'cmb2'),
+                'true' => __('Yes', 'cmb2'),
             ),
+            'default' => 'false',
         ),
 
         array(
@@ -195,8 +195,8 @@ $config[] = array(
                 'black_belt' => __('Black Belt'),
                 'black_belt_1st_dan' => __('Black Belt 1st Dan'),
                 'black_belt_2nd_dan' => __('Black Belt 2nd Dan'),
-
             ),
+            //'default' => 'white_belt',
             'select_type' => 'radio',
             //'sanitization_cb' => 'pw_select2_sanitise',
         ),
@@ -236,13 +236,25 @@ $config[] = array(
             'preview_size' => array(100, 100),
         ),
 
-        /*array(
-            'name' => __('Program Image', 'cmb2'),
-            'desc' => __('Upload or add program image.', 'cmb2'),
-            'id' => $prefix . 'program_image',
-            'type' => 'file',
-            'preview_size' => array(100, 100),
-        ),*/
+        array(
+            'name' => 'Prices',
+            'desc' => 'Type your price information for this program here.',
+            'id' => $prefix . 'prices',
+            'type' => 'wysiwyg',
+            'options' => array(
+                'wpautop' => true,
+                'media_buttons' => false,
+                'textarea_name' => '',
+                'textarea_rows' => get_option('default_post_edit_rows', 10), // rows="..."
+                'tabindex' => '',
+                'editor_css' => '',
+                'editor_class' => '',
+                'teeny' => false,
+                'dfw' => false,
+                'tinymce' => true,
+                'quicktags' => true
+            ),
+        ),
 
 
         array(
@@ -392,6 +404,103 @@ $config[] = array(
     )
 
 );*/
+
+
+
+
+$prefix = '_cmb_test_content_';
+$config[] = array(
+    'id' => 'metabox_test_content_options',
+    'prefix' => $prefix,
+    'title' => 'Test Content Options',
+    'object_types' => array('test_content'), // post type
+    'context' => 'normal',
+    'priority' => 'low',
+    'show_names' => true, // Show field names on the left
+
+    'fields' => array(
+
+        array(
+            'name' => __('Test Text', 'cmb2'),
+            'desc' => __('Type in the test text here', 'cmb2'),
+            'id' => $prefix . 'test_text',
+            'type' => 'text',
+        ),
+
+        array(
+            'name' => __('Test Image', 'cmb2'),
+            'desc' => __('Upload or add test image.', 'cmb2'),
+            'id' => $prefix . 'test_image',
+            'type' => 'file',
+            'preview_size' => array(100, 100),
+        ),
+
+        array(
+            'name' => 'Test WYSIWYG',
+            'desc' => 'Type your test information here.',
+            'id' => $prefix . 'test_wysiwyg',
+            'type' => 'wysiwyg',
+            'options' => array(
+                'wpautop' => true,
+                'media_buttons' => false,
+                'textarea_name' => '',
+                'textarea_rows' => get_option('default_post_edit_rows', 10), // rows="..."
+                'tabindex' => '',
+                'editor_css' => '',
+                'editor_class' => '',
+                'teeny' => false,
+                'dfw' => false,
+                'tinymce' => true,
+                'quicktags' => true
+            ),
+        ),
+
+
+        array(
+            'name' => __('Test Group', 'cmb2'),
+            'id' => $prefix . 'group',
+            'type' => 'group',
+            'description' => __('Add the test group below', 'cmb2'),
+            'options' => array(
+                'group_title' => __('Test Group {#}', 'cmb2'),
+                'add_button' => __('Add Another Test Group', 'cmb2'),
+                'remove_button' => __('Remove test Group', 'cmb2'),
+                'sortable' => true,
+            ),
+
+            'fields' => array(
+
+                array(
+                    'name' => 'Test Select',
+                    'desc' => 'Select an option',
+                    'id' => 'test_select',
+                    'type' => 'select',
+                    'show_option_none' => true,
+                    //'default' => 'monday',
+                    'options' => array(
+                        'option1' => __('Option 1', 'cmb2'),
+                        'option2' => __('Option 2', 'cmb2'),
+                        'option3' => __('Option 3', 'cmb2'),
+
+                    ),
+                ),
+
+                array(
+                    'name' => 'Test Time',
+                    'id' => 'test_time',
+                    'type' => 'text_time'
+                    // 'time_format' => 'h:i:s A',
+                ),
+
+
+            ),
+        ),
+
+
+    )
+
+);
+
 
 
 return $config;
