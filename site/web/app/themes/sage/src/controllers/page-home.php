@@ -10,6 +10,9 @@ use MedusaContentSuite\Config\Menus;
 
 class PageHome extends Controller
 {
+    use Content;
+    use LinkPages;
+
     /**
      * Return images from Advanced Custom Fields
      *
@@ -17,7 +20,7 @@ class PageHome extends Controller
      */
     public function news_slides()
     {
-
+        $news_slides = [];
         $args = array(
             'posts_per_page' => 5,
             'post_type' => 'news_article',

@@ -1,4 +1,4 @@
-content!!<article class="{!! $post_class !!}">
+content-program!!<article class="{!! $post_class !!}">
   @if (has_post_thumbnail())
   <div class="post-image thumb featured">
     @php(the_post_thumbnail(array(120,120)))

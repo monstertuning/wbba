@@ -11,8 +11,6 @@ use MedusaContentSuite\Config\Menus;
 
 class Base extends Controller
 {
-    use Meta;
-
     protected $programs = null;
     protected $menu = null;
     protected $companyInfo = null;
@@ -22,6 +20,8 @@ class Base extends Controller
         parent::__construct();
         $this->setCompanyInfo();
     }
+
+
 
 
     /**
@@ -156,7 +156,8 @@ class Base extends Controller
         $data['site_logo'] = wp_get_attachment_image( $headerImgId, 'thumb-width-400', false,  $attr );
         $data['bg_image'] = wp_get_attachment_image_url( $companyBgImgId, '' );
         $data['social_links'] = $mmcData['social_media_setting'];
-        $data['tagline'] = get_bloginfo('description');
+        $data['site_description'] = get_bloginfo('description');
+        $data['site_title'] = get_bloginfo('name');
         $data['phone1'] = $mmcData['phone1'];
         $data['phone2'] = $mmcData['phone2'];
         $data['email'] = $mmcData['email'];

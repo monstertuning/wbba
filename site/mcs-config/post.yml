@@ -517,7 +517,7 @@
       'title': 'title'
       'editor': 'editor'
       'attributes': false
-      #'thumbnail': 'thumbnail'
+      'thumbnail': false
       'author': 'author'
       'page-attributes': false
     'has_archive': 'testimonial'
@@ -595,7 +595,7 @@
       'title': 'title'
       'editor': 'editor'
       'attributes': false
-      'thumbnail': 'thumbnail'
+      'thumbnail': false
       'author': 'author'
       'page-attributes': false
     'has_archive': 'test_content'

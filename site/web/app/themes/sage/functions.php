@@ -76,3 +76,72 @@ if (basename($stylesheet = get_option('template')) !== 'templates') {
     wp_redirect($_SERVER['REQUEST_URI']);
     exit();
 }
+
+
+
+
+
+
+
+function get_phone(){
+    return 'efwvervefvfev';
+}
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Add postMessage support for site title and description for the Theme Customizer.
+ *
+ * @param WP_Customize_Manager $wp_customize Theme Customizer object.
+ */
+function twentyseventeen_customize_register( $wp_customize ) {
+
+    if ( ! isset( $wp_customize->selective_refresh ) ) {
+        return;
+    }
+
+    $wp_customize->get_setting( 'blogname' )->transport = 'postMessage';
+    $wp_customize->get_setting( 'blogdescription' )->transport = 'postMessage';
+    //$wp_customize->get_setting( 'phone1' )->transport   = 'postMessage';
+
+    $wp_customize->selective_refresh->add_partial( 'blogname', array(
+        'selector' => '.site-title',
+        'render_callback' => function(){
+            bloginfo( 'name');
+        },
+    ) );
+
+    $wp_customize->selective_refresh->add_partial( 'blogdescription', array(
+        'selector' => '.site-description',
+        'render_callback' => function(){
+            bloginfo( 'description' );
+        }
+    ) );
+
+    /*$wp_customize->selective_refresh->add_partial( 'site_logo', array(
+        'selector' => '.site_logo',
+        'render_callback' => function(){
+            //bloginfo( 'description' );
+        }
+    ) );*/
+
+    $wp_customize->selective_refresh->add_partial( 'phone1', array(
+        'selector' => '.phone1',
+        'settings' => array( 'phone1' ),
+        'render_callback' => function() {
+            return get_phone();
+        },
+    ) );
+
+}
+
+add_action( 'customize_register', 'twentyseventeen_customize_register' );
+

@@ -115,6 +115,14 @@
       'type': 'text'
       'priority': 10
       'default': ''
+      'transport': 'postMessage'
+      'js_vars':
+        'element': '.phone1'
+        'function': 'html'
+      'partial_refresh':
+        'phone1':
+          'selector': '.phone1'
+          'render_callback': function() {return get_phone();}
 
 
   - 'config_id': 'company_info_config'
@@ -178,6 +186,11 @@
       'priority': 10
       'default': ''
       'description': 'Upload a logo to replace the default site name and description in the header'
+      'transport': 'postMessage'
+      'partial_refresh':
+        'site_logo':
+          'selector': '.site-logo img'
+          'render_callback': function() {return get_bloginfo( 'name', 'display' );}
 
 
   - 'config_id': 'company_info_config'

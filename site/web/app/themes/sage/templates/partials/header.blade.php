@@ -5,13 +5,14 @@
         <div class="row">
 
             <div class="col-sm-3 text-sm-left">
-                <div class="tagline ">{{ $company_info['tagline'] }}</div>
+                <div class="site-title">{{ $company_info['site_title'] }}</div>
+                <div class="tagline site-description">{{ $company_info['site_description'] }}</div>
                 <div class="phone1">{{ $company_info['phone1'] }}</div>
             </div>
 
             <div class="col-sm-6 text-sm-center">
                 <div id="header-image-wrap">
-                    <div id="header-image">
+                    <div id="header-image" class="site-logo">
                         <a href="">
                             {!! $company_info['site_logo'] !!}
                         </a>

@@ -1,27 +1,16 @@
-{{--featured image : <br>
-@php(the_post_thumbnail(array(150,150)))--}}
-<article @php(post_class())>
-  {{--<br>
-  @if (!empty($meta))
-    meta : <br>
-    <pre>
-        {{ var_dump($meta) }}
-    </pre>
-  @else
-
-  @endif--}}
-
+<article class="{!! $post_class !!}">
   <header id="page-header">
-    <h1 class="entry-title">{{ get_the_title() }}</h1>
+    <h1 class="entry-title">{{ $title }}</h1>
     @if(MedusaContentSuite\Config\Globals::showEntryMetaOnSingle())
       @include('partials/entry-meta')
     @endif
+    <div class="image featured ">{!! $featured_image_post_portrait !!}</div>
   </header>
+
   <div class="entry-content">
-    @php(the_content())
+    {!! $content !!}
   </div>
   <footer>
-    {!! wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
+    {!! $link_pages !!}
   </footer>
-  @php(comments_template('/templates/partials/comments.blade.php'))
 </article>

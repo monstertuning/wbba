@@ -26,30 +26,9 @@ class Config extends Repository
         /*$tag = 'sage/template/post-type-archive-'.$pt.'/data';
         add_filter( $tag, array($this, 'ptArchiveData' ) );*/
 
-        $tag = 'sage/template/single-'.$pt.'/data';
-        add_filter( $tag, array($this, 'ptSingleData' ) );
 
     }
 
-
-    public function ptSingleData( $data )
-    {
-        global $post;
-
-        $pt = get_post_type();
-
-        $postMeta = new PostMeta;
-        $metaFieldKeysAndTypes = $postMeta->getPostMetaFieldKeysAndTypeByPostType($pt);
-        $meta = $postMeta->getPostMetaFieldValuesFromKeys($metaFieldKeysAndTypes, $pt);
-
-        $data['meta'] = (isset($meta) ? $meta : null);
-
-        foreach($meta as $k => $v){
-            $data[$k] = $v;
-        }
-
-        return $data;
-    }
 
 
     public function ptArchiveData( $data )
