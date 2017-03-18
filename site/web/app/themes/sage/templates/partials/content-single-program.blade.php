@@ -5,19 +5,20 @@
     </header>
 
     <div class="entry-content">
+        {{--@debug('dump')--}}
         {!! $content !!}
     </div>
 
-    @if ($meta['prices'])
-        <div class="col-sm-6 padding-left-0">
+    @unless (empty($prices))
+        <div class="col-sm-12 padding-left-0">
             <div class="list-block prices title">
                 <h2>Prices</h2>
             </div>
             <div class="list-block info">
-                <div>{!! $meta['prices'] !!}</div>
+                <div>{!! $prices !!}</div>
             </div>
         </div>
-    @endif
+    @endunless
 
     <footer>
         {!! $link_pages !!}

@@ -1,11 +1,12 @@
+{{--@debug('controller')--}}
 <div class="list-item">
   <a href="{!! $permalink !!}">
     <article class="{!! $post_class !!}">
-      @if (has_post_thumbnail())
+      @unless (empty($featured_image))
         <div class="post-image thumb featured">
           {!! $featured_image !!}
         </div>
-      @endif
+      @endunless
       <header>
         {{--@debug('dump')--}}
         {{--<pre>@php print_r($post) @endphp </pre>--}}

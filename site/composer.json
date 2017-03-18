@@ -392,7 +392,8 @@
     "wpackagist-plugin/ajax-thumbnail-rebuild": "1.12",
     "wpackagist-plugin/post-thumbnail-editor": "2.4.8",
     "soberwp/controller": "1.0.0-beta1.2",
-    "wpackagist-plugin/wp-google-fonts": "v3.1.4"
+    "wpackagist-plugin/wp-google-fonts": "v3.1.4",
+    "wpackagist-plugin/wp-hide-security-enhancer": "1.4.3"
   },
 
   "require-dev": {    

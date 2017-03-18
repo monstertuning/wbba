@@ -435,7 +435,7 @@
       'attributes': 'attributes'
       'thumbnail': 'thumbnail'
       'author': 'author'
-      'excerpt': 'excerpt'
+      'excerpt': false
       'page-attributes': false
     'has_archive': 'program'
     'hierarchical': false
@@ -517,7 +517,7 @@
       'title': 'title'
       'editor': 'editor'
       'attributes': false
-      'thumbnail': false
+      'thumbnail': 'thumbnail'
       'author': 'author'
       'page-attributes': false
     'has_archive': 'testimonial'
@@ -629,6 +629,6 @@
 #    'can_export': true
 #    'pt_archive_title': 'Test Content'
 #    'pt_archive_show_entry_meta': false
-#    'single_show_entry_meta': false
+#    'single_show_entry_meta'c: false
 
 

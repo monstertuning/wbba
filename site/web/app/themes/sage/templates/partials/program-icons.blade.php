@@ -8,7 +8,9 @@
                 </div>
             </a>
             <div class="info">
-                <div class="title">{{ $program['title'] }}</div>
+                <a href="{{ $program['link'] }}" title="{{ $program['title'] }}">
+                    <div class="title">{{ $program['title'] }}</div>
+                </a>
                 <div class="age">{{ $program['ages'] }}</div>
             </div>
         </div>
