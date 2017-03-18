@@ -1,2 +1,1 @@
 {!! $content !!}
-{!! $link_pages !!}

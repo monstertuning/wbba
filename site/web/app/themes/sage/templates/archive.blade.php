@@ -4,19 +4,21 @@
 
     @include('partials.page-header')
 
-    <div>archive!!
-
-        {{--@if (!$posts)
+    <div>
+        @forelse($posts as $post)
+            @php(extract($post))
+            @unless (empty($post['post_meta']))
+                @php (extract($post['post_meta']))
+            @endunless
+            @include ('partials.content-'.(get_post_type() !== 'post' ? get_post_type() : get_post_format()))
+        @empty
             <div class="alert alert-warning">
                 {{ __('Sorry, no results were found.', 'sage') }}
             </div>
-        @elseif--}}
-            @foreach($posts as $post)
-                @include ('partials.content-'.(get_post_type() !== 'post' ? get_post_type() : get_post_format()), $post)
-            @endforeach
-        {{--@endif--}}
+        @endforelse
 
         {!! get_the_posts_navigation() !!}
+
     </div>
 
 @endsection

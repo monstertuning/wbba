@@ -4,6 +4,10 @@
         <div class="image featured program">{!! $featured_image_post_header !!}</div>
     </header>
 
+    <div class="entry-content">
+        {!! $content !!}
+    </div>
+
     @if ($meta['prices'])
         <div class="col-sm-6 padding-left-0">
             <div class="list-block prices title">
@@ -14,9 +18,7 @@
             </div>
         </div>
     @endif
-    <div class="entry-content">
-        {!! $content !!}
-    </div>
+    
     <footer>
         {!! $link_pages !!}
     </footer>
