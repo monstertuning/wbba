@@ -18,7 +18,7 @@
             </div>
         </div>
     @endif
-    
+
     <footer>
         {!! $link_pages !!}
     </footer>
