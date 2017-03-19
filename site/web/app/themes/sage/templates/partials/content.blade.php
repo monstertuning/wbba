@@ -1,4 +1,3 @@
-{{--@debug('controller')--}}
 <div class="list-item">
   <a href="{!! $permalink !!}">
     <article class="{!! $post_class !!}">
@@ -8,9 +7,7 @@
         </div>
       @endunless
       <header>
-        {{--@debug('dump')--}}
-        {{--<pre>@php print_r($post) @endphp </pre>--}}
-        <h2 class="entry-title">{!! $post['post_title'] !!}</h2>
+        <h2 class="entry-title">{!! $post_title !!}</h2>
         @if(MedusaContentSuite\Config\Globals::showEntryMetaOnArchive())
           @include('partials/entry-meta')
         @endif

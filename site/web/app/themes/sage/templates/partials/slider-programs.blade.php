@@ -19,7 +19,7 @@
             if(has_post_thumbnail($p->ID)){
                 $programs[$x]['title'] = get_the_title( $p->ID );
                 $programs[$x]['link'] = get_permalink( $p->ID );
-                $programs[$x]['image'] = get_the_post_thumbnail( $p->ID, 'thumb-width-400-height-400-crop', $imgAttr );
+                $programs[$x]['image'] = get_the_post_thumbnail( $p->ID, 'square-400', $imgAttr );
                 #$programs[$x]['image'] = get_the_post_thumbnail( $p->ID, array(400, 400), $imgAttr );
                 #$programs[$x]['excerpt'] = get_the_excerpt( $p );
                 $programs[$x]['excerpt'] = $helpers->mmcGetExcerptById( $p->ID, 40, 'read more' );

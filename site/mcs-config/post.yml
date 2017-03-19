@@ -88,76 +88,77 @@
 
 
 
-#
-#
-#
-#- 'name': 'Photo Galleries'
-#  'args':
-#    'labels':
-#      'name': 'Photo Galleries'
-#      'singular_name': 'Photo Gallery'
-#      'add_new': 'Add New'
-#      'add_new_item': 'Add New Photo Gallery'
-#      'edit_item': 'Edit Photo Gallery'
-#      'new_item': 'New Photo Gallery'
-#      'all_items': 'All Photo Galleries'
-#      'view_item': 'View Photo Gallery'
-#      'not_found': 'No Photo Gallery entry found'
-#      'not_found_in_trash': 'No Photo Galleries entry found in the Trash'
-#      'parent_item_colon': ''
-#      'menu_name': 'Photo Galleries'
-#    'rewrite':
-#      'slug': 'photo_gallery'
-#      'with_front': true
-#      'feed': true
-#      'pages': true
-#    'description': 'Holds our Photo Galleries and Photo Galleries data'
-#    'public': true
-#    'menu_position': 20
-#    'supports':
-#      'title': 'title'
-#      'editor': 'editor'
-#      'attributes': 'attributes'
-#      'thumbnail': 'thumbnail'
-#      'author': 'author'
-#      'page-attributes': false
-#    'has_archive': 'photo_gallery'
-#    'hierarchical': false
-#    'exclude_from_search': false
-#    'publicly_queryable': true
-#    'show_ui': true
-#    'show_in_menu': true
-#    'show_in_admin_bar': true
-#    'show_in_nav_menus': true
-#    'menu_icon': 'dashicons-admin-page'
-##    'capability_type': 'photo_gallery'
-##    'capabilities':
-##      'photo_gallery': 'photo_gallery'
-#    'map_meta_cap': true
-#    'register_meta_box_cb': false
-#    'taxonomies':
-#      'category': false
-#      'post_tag': false
-#    'query_var': 'photo_gallery'
-#    'can_export': true
-#    'show_in_rest': true
-#  'type': 'photo_gallery'
-#  'extras':
-#    'sidebars': false
-#    'mu_main_site_only': false
-#    'sub_site_only': false
-#    'columns': false
-#    'default_category_tax': true
-#    'show_in_nav_menu': true
-#    'nav_menu_position': 1
-#    'show_posts_in_nav_menu': true
-#    'create_dummy_posts': false
-#    'url_query_vars': 'photo_gallery'
-#    'can_export': true
-#    'pt_archive_title': 'Photo Galleries'
-#    'pt_archive_show_entry_meta': false
-#
-#
+
+
+
+- 'name': 'Photo Galleries'
+  'args':
+    'labels':
+      'name': 'Photo Galleries'
+      'singular_name': 'Photo Gallery'
+      'add_new': 'Add New'
+      'add_new_item': 'Add New Photo Gallery'
+      'edit_item': 'Edit Photo Gallery'
+      'new_item': 'New Photo Gallery'
+      'all_items': 'All Photo Galleries'
+      'view_item': 'View Photo Gallery'
+      'not_found': 'No Photo Gallery entry found'
+      'not_found_in_trash': 'No Photo Galleries entry found in the Trash'
+      'parent_item_colon': ''
+      'menu_name': 'Photo Galleries'
+    'rewrite':
+      'slug': 'photo_gallery'
+      'with_front': true
+      'feed': true
+      'pages': true
+    'description': 'Holds our Photo Galleries and Photo Galleries data'
+    'public': true
+    'menu_position': 20
+    'supports':
+      'title': 'title'
+      'editor': 'editor'
+      'attributes': 'attributes'
+      'thumbnail': 'thumbnail'
+      'author': 'author'
+      'page-attributes': false
+    'has_archive': 'photo_gallery'
+    'hierarchical': false
+    'exclude_from_search': false
+    'publicly_queryable': true
+    'show_ui': true
+    'show_in_menu': true
+    'show_in_admin_bar': true
+    'show_in_nav_menus': true
+    'menu_icon': 'dashicons-admin-page'
+#    'capability_type': 'photo_gallery'
+#    'capabilities':
+#      'photo_gallery': 'photo_gallery'
+    'map_meta_cap': true
+    'register_meta_box_cb': false
+    'taxonomies':
+      'category': false
+      'post_tag': false
+    'query_var': 'photo_gallery'
+    'can_export': true
+    'show_in_rest': true
+  'type': 'photo_gallery'
+  'extras':
+    'sidebars': false
+    'mu_main_site_only': false
+    'sub_site_only': false
+    'columns': false
+    'default_category_tax': true
+    'show_in_nav_menu': true
+    'nav_menu_position': 1
+    'show_posts_in_nav_menu': true
+    'create_dummy_posts': false
+    'url_query_vars': 'photo_gallery'
+    'can_export': true
+    'pt_archive_title': 'Photo Galleries'
+    'pt_archive_show_entry_meta': false
+    'single_show_entry_meta': false
+    'single_show_featured_image': false
+
 
 
 
@@ -568,11 +569,90 @@
 
 
 
+
+
+
+
+- 'name': 'Achievements'
+  'args':
+    'labels':
+      'name': 'Achievements'
+      'singular_name': 'Achievement'
+      'add_new': 'Add New'
+      'add_new_item': 'Add New Achievement'
+      'edit_item': 'Edit Achievement'
+      'new_item': 'New Achievement'
+      'all_items': 'All Achievements'
+      'view_item': 'View Achievement'
+      'not_found': 'No Achievement found'
+      'not_found_in_trash': 'No Achievements found in the Trash'
+      'parent_item_colon': ''
+      'menu_name': 'Achievements'
+    'rewrite':
+      'slug': 'achievement'
+      'with_front': true
+      'feed': true
+      'pages': true
+    'description': 'Holds our Achievements and Achievements data'
+    'public': true
+    'menu_position': 20
+    'supports':
+      'title': 'title'
+      'editor': false
+      'attributes': false
+      'thumbnail': false
+      'author': 'author'
+      'page-attributes': false
+    'has_archive': 'achievement'
+    'hierarchical': false
+    'exclude_from_search': false
+    'publicly_queryable': true
+    'show_ui': true
+    'show_in_menu': true
+    'show_in_admin_bar': true
+    'show_in_nav_menus': true
+    'menu_icon': 'dashicons-admin-page'
+#    'capability_type': 'achievement'
+#    'capabilities':
+#      'achievement': 'achievement'
+    'map_meta_cap': true
+    'register_meta_box_cb': false
+    'taxonomies':
+      'test': 'test'
+    'query_var': 'achievement'
+    'can_export': true
+    'show_in_rest': true
+  'type': 'achievement'
+  'extras':
+    'sidebars': false
+    'mu_main_site_only': false
+    'sub_site_only': false
+    'columns': false
+    'default_category_tax': true
+    'show_in_nav_menu': true
+    'nav_menu_position': 1
+    'show_posts_in_nav_menu': true
+    'create_dummy_posts': false
+    'url_query_vars': 'achievement'
+    'can_export': true
+    'pt_archive_title': 'Achievements'
+    'pt_archive_show_entry_meta': false
+    'single_show_entry_meta': false
+
+
+
+
+
+
+
+
+
+
 #- 'name': 'Test Content'
 #  'args':
 #    'labels':
 #      'name': 'Test Content'
-#      'singular_name': 'Testimonial'
+#      'singular_name': 'Achievement'
 #      'add_new': 'Add New'
 #      'add_new_item': 'Add New Test Content'
 #      'edit_item': 'Edit Test Content'

@@ -12,8 +12,5 @@ class Single extends Controller
     use LinkPages;
     use PostClass;
 
-
-
-
 }
 

@@ -4,7 +4,9 @@
     @if(MedusaContentSuite\Config\Globals::showEntryMetaOnSingle())
       @include('partials/entry-meta')
     @endif
+    @if(MedusaContentSuite\Config\Globals::showFeaturedImageOnSingle())
     <div class="image featured ">{!! $featured_image_post_portrait !!}</div>
+      @endif
   </header>
 
   <div class="entry-content">

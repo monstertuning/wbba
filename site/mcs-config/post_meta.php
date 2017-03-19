@@ -30,38 +30,33 @@ $config[] = array(
 
 #_cmb_photo_gallery_options_
 
-/*$prefix = '_cmb_photo_gallery_options_';
+$prefix = '_cmb_photo_gallery_options_';
 $config[] = array(
     'id' => 'metabox_photo_gallery_options',
     'prefix' => $prefix,
     'title' => 'Photo Gallery Details',
-    'object_types' => array('photo_gallery'), // post type
+    'object_types' => array('photo_gallery'),
     'context' => 'normal',
     'priority' => 'low',
-    'show_names' => true, // Show field names on the left
+    'show_names' => true,
     'fields' => array(
 
         array(
-            'name' => 'Description',
-            'desc' => 'Type your description for the photo galleries',
-            'id' => $prefix . 'description',
-            'type' => 'wysiwyg',
-            'options' => array(
-                'wpautop' => true,
-                'media_buttons' => false,
-                'textarea_name' => 'sdfgh',#$editor_id,
-                'textarea_rows' => get_option('default_post_edit_rows', 10), // rows="..."
-                'tabindex' => '',
-                'editor_css' => '',
-                'editor_class' => '',
-                'teeny' => false,
-                'dfw' => false,
-                'tinymce' => true,
-                'quicktags' => true
+            'name' => 'Gallery Images',
+            'desc' => '',
+            'id'   => 'gallery_images',
+            'type' => 'file_list',
+            'preview_size' => array( 150, 150 ),
+            'text' => array(
+                'add_upload_files_text' => 'Gallery Image',
+                'remove_image_text' => 'Gallery Image',
+                'file_text' => 'Gallery Image',
+                'file_download_text' => 'Gallery Image',
+                'remove_text' => 'Gallery Image',
             ),
         ),
     )
-);*/
+);
 
 
 #_cmb_news_article_options_
@@ -404,6 +399,58 @@ $config[] = array(
     )
 
 );*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$prefix = '_cmb_achievement_';
+$config[] = array(
+    'id' => 'metabox_achievement_options',
+    'prefix' => $prefix,
+    'title' => 'Achievement Options',
+    'object_types' => array('achievement'), // post type
+    'context' => 'normal',
+    'priority' => 'low',
+    'show_names' => true, // Show field names on the left
+
+
+    'fields' => array(
+        array(
+            'name' => __('Names', 'cmb2'),
+            'id' => $prefix . 'names',
+            'type' => 'group',
+            'description' => __('Add the names below', 'cmb2'),
+            'options' => array(
+                'group_title' => __('Name {#}', 'cmb2'),
+                'add_button' => __('Add Another Name', 'cmb2'),
+                'remove_button' => __('Remove Name', 'cmb2'),
+                'sortable' => true,
+            ),
+
+            'fields' => array(
+                array(
+                    'name' => __('Name', 'cmb2'),
+                    'desc' => __('Type in the name here', 'cmb2'),
+                    'id' => 'name',
+                    'type' => 'text',
+                )
+            ),
+        ),
+    )
+);
+
+
 
 
 

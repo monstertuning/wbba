@@ -41,7 +41,7 @@ class PageHome extends Controller
                 if(has_post_thumbnail($p->ID)){
                     $news_slides[$x]['title'] = get_the_title( $p->ID );
                     $news_slides[$x]['link'] = get_permalink( $p->ID );
-                    $news_slides[$x]['image'] = get_the_post_thumbnail( $p->ID, 'width-600-height-600-crop', $imgAttr );
+                    $news_slides[$x]['image'] = get_the_post_thumbnail( $p->ID, 'square-600', $imgAttr );
                     #$data[$x]['image'] = get_the_post_thumbnail( $p->ID, array(400, 400), $imgAttr );
                     #$data[$x]['excerpt'] = get_the_excerpt( $p );
                     $news_slides[$x]['excerpt'] = $helpers->mmcGetExcerptById( $p->ID, 40, 'read more' );
