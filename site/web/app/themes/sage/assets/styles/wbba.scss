@@ -34,6 +34,37 @@ p, td, span, div {
   @extend .list-block;
 }
 
+.timetable{
+  .row.classes{
+    >div{
+
+      &:nth-child(odd){
+        padding-right:5px;
+      }
+      &:nth-child(even){
+        padding-left:5px;
+      }
+
+    }
+  }
+}
+
+.timetable{
+  color: $color-white;
+  font-size: 11pt;
+  a{
+      &:hover, &:focus, &:visited{
+      text-decoration: none;
+    }
+  }
+  .class-name{
+    font-size: 16pt;
+    color: $color-gold;
+  }
+  .class-name, .ages, .time{display: block;
+  }
+}
+
 article{
   min-height: 152px;
 }
@@ -74,11 +105,11 @@ h2, article h2, .tinymce h2{
   font-size: 1.4rem;
 }
 
-article h2, .tinymce h2, article h3, .tinymce h3{
+#content h2, .tinymce h2, #content h3, .tinymce h3{
   color: $color-purple;
 }
 
-article h2, .tinymce h2{
+#content h2, .tinymce h2{
   margin-bottom: 10px;
 }
 
@@ -184,110 +215,110 @@ h2.entry-title{
 
   }
 }
-  //@media only screen and (max-width: 768px)
+//@media only screen and (max-width: 768px)
 
 
-  .carousel{
-    background: rgba(0, 0, 0, 0.6);
-    border: 1px solid #333333;
+.carousel{
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #333333;
 
-    .text{
-      padding:  15px 0 0;
-      .wrap{
-        padding: 15px;
+  .text{
+    padding:  15px 0 0;
+    .wrap{
+      padding: 15px;
+    }
+  }
+
+  h2{
+    font-family: 'Armata', sans-serif;
+    margin: 0 0 5px 0;
+    font-size: 18pt;
+  }
+
+  .image{
+    padding-right: 0;
+  }
+
+}
+
+.home .carousel{
+  margin-top: $margin-width;
+}
+
+#content p:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+article ul{
+  margin-top: 10px;
+}
+
+.image.featured.program{
+  margin-bottom: $margin-width;
+}
+
+.list-block.title {
+  padding: 0;
+  margin-bottom: $margin-width/2;
+
+  h2 {
+    padding: 7px 5px;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Armata', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 1px 1px #000000;
+    font-size: 12pt;
+  }
+}
+
+.social-icons {
+  margin-top: 10px;
+  i{
+    font-size: 30pt;
+    color: $color-purple;
+    margin-right: 10px;
+    transition:color .2s ease-out, background .2s ease-in;
+    &:hover{
+      text-decoration: none;
+      color: $color-white;
+    }
+  }
+}
+
+.tagline{
+  margin-top: 10px;
+}
+
+.single{
+  .image.featured {
+    &:not(.program) {
+      img {
+        max-width: 50%;
+        margin: 0 0 $margin-width $margin-width;
+        float: right;
       }
     }
+  }
+}
 
-    h2{
-      font-family: 'Armata', sans-serif;
-      margin: 0 0 5px 0;
-      font-size: 18pt;
+.padding-left-0{
+  padding-left: 0;
+}
+
+.list-item{
+  a{
+    &:hover, &:active, &:focus{
+      text-decoration: none;
+    }
+    .entry-summary {
+      color: $color-white;
     }
 
-    .image{
-      padding-right: 0;
-    }
-
   }
-
-  .home .carousel{
-    margin-top: $margin-width;
-  }
-
-  #content p:last-child {
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  article ul{
-    margin-top: 10px;
-  }
-
-  .image.featured.program{
-    margin-bottom: $margin-width;
-  }
-
-  article .prices.title {
-    padding: 0;
-    margin-bottom: $margin-width/2;
-
-    h2 {
-      padding: 7px 5px;
-      margin: 0;
-      font-weight: bold;
-      font-family: 'Armata', sans-serif;
-      text-transform: uppercase;
-      text-align: center;
-      text-shadow: 2px 1px 1px #000000;
-      font-size: 12pt;
-    }
-  }
-
-  .social-icons {
-    margin-top: 10px;
-    i{
-      font-size: 30pt;
-      color: $color-purple;
-      margin-right: 10px;
-      transition:color .2s ease-out, background .2s ease-in;
-      &:hover{
-        text-decoration: none;
-        color: $color-white;
-      }
-    }
-  }
-
-  .tagline{
-    margin-top: 10px;
-  }
-
-  .single{
-    .image.featured {
-      &:not(.program) {
-        img {
-          max-width: 50%;
-          margin: 0 0 $margin-width $margin-width;
-          float: right;
-        }
-      }
-    }
-  }
-
-  .padding-left-0{
-    padding-left: 0;
-  }
-
-  .list-item{
-    a{
-      &:hover, &:active, &:focus{
-        text-decoration: none;
-      }
-      .entry-summary {
-        color: $color-white;
-      }
-
-    }
-  }
+}
 
 .table {
   h3{
@@ -312,7 +343,7 @@ h2.entry-title{
   }
 }
 
-article.photo_gallery{
+.single article.photo_gallery{
   .thumb{
     float: left;
     max-width: 150px;
@@ -322,3 +353,4 @@ article.photo_gallery{
     }
   }
 }
+
