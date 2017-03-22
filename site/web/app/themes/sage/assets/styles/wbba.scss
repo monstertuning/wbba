@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Armata');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
 body{
   background-color: $color-black !important;
@@ -221,11 +222,17 @@ h2.entry-title{
 .carousel{
   background: rgba(0, 0, 0, 0.6);
   border: 1px solid #333333;
+  height: 366px;
+  margin-bottom: $margin-width;
+
+  .carousel-item{
+    height: 366px;
+  }
 
   .text{
     padding:  15px 0 0;
     .wrap{
-      padding: 15px;
+      padding: 15px 25px 15px 15px;
     }
   }
 
@@ -289,6 +296,16 @@ article ul{
 }
 
 .tagline{
+  margin: 10px 0 20px 0;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.3rem;
+  text-shadow: 2px 1px 1px #000000;
+}
+
+.phone1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
   margin-top: 10px;
 }
 

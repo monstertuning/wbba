@@ -1,7 +1,7 @@
 'config':
   - 'config_id': 'company_info_config'
     'args':
-      'capability': 'edit_theme_options'
+      'capability': 'read'
       'option_type': 'option'
       'option_name': 'mmc'
       'disable_output': 'false'
@@ -21,7 +21,7 @@
       'priority': 5
       #'description': ''
       'panel': 'company_info_panel'
-      'capability': 'edit_theme_options'
+      'capability': 'read'
       'theme_supports': ''
 
   - 'section_id': 'company_contact_section'
@@ -30,7 +30,7 @@
       'priority': 5
       #'description': ''
       'panel': 'company_info_panel'
-      'capability': 'edit_theme_options'
+      'capability': 'read'
       'theme_supports': ''
 
   - 'section_id': 'social_media_section'
@@ -39,7 +39,7 @@
       'priority': 10
       #'description': ''
       'panel': 'company_info_panel'
-      'capability': 'edit_theme_options'
+      'capability': 'read'
       'theme_supports': ''
 
   - 'section_id': 'company_images_section'
@@ -47,7 +47,7 @@
       'title': 'Company Images'
       'priority': 10
       #'description': ''
-      'capability': 'edit_theme_options'
+      'capability': 'read'
       'theme_supports': ''
 
 
@@ -60,6 +60,7 @@
       'type': 'text'
       'priority': 10
       'default': ''
+      'capability': 'read'
 
   - 'config_id': 'company_info_config'
     'args':
@@ -69,6 +70,7 @@
       'type': 'text'
       'priority': 10
       'default': ''
+      'capability': 'read'
 
   - 'config_id': 'company_info_config'
     'args':

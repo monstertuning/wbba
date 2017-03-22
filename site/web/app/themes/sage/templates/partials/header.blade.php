@@ -5,8 +5,8 @@
         <div class="row">
 
             <div class="col-sm-3 text-sm-left">
-                <div class="site-title">{{ $company_info['site_title'] }}</div>
-                <div class="tagline site-description">{{ $company_info['site_description'] }}</div>
+                {{--<div class="site-title">{{ $company_info['site_title'] }}</div>
+                <div class="tagline site-description">{{ $company_info['site_description'] }}</div>--}}
                 <div class="phone1">{{ $company_info['phone1'] }}</div>
             </div>
 
@@ -32,6 +32,12 @@
                 </div>
             </div>
 
+        </div>
+
+        <div class="col-sm-12 text-sm-center">
+            <div class="tagline site-description">
+                {{ $company_info['site_description'] }}
+            </div>
         </div>
 
     </div>
