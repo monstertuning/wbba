@@ -13,3 +13,36 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+
+.frm_style_formidable-style.with_frm_style label.frm_primary_label, .frm_style_formidable-style.with_frm_style.frm_login_form label {
+
+  color: $color-white;
+  @extend p;
+  margin-bottom: 0;
+
+}
+
+.frm_style_formidable-style.with_frm_style {
+  input[type=text], input[type=email], textarea{
+    background-color: $color-grey;
+    border-width: 0;
+    color: $color-white !important;
+  }
+
+  .frm_form_field :invalid {
+    background-color: $color-grey;;
+    border-color: #B94A48;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  input[type=text]:focus, input[type=email]:focus, textarea:focus,
+  input[type=text]:active, input[type=email]:active, textarea:active{
+    background-color: $color-grey !important;
+    box-shadow: none ! important;
+  }
+  textarea{
+    height: 240px;
+  }
+}
