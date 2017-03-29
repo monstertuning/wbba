@@ -158,6 +158,7 @@ class Base extends Controller
         $data['social_links'] = $mmcData['social_media_setting'];
         $data['site_description'] = get_bloginfo('description');
         $data['site_title'] = get_bloginfo('name');
+        $data['site_url'] = get_bloginfo('url');
         $data['phone1'] = $mmcData['phone1'];
         $data['phone2'] = $mmcData['phone2'];
         $data['email'] = $mmcData['email'];

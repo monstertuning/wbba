@@ -13,7 +13,7 @@
             <div class="col-sm-6 text-sm-center">
                 <div id="header-image-wrap">
                     <div id="header-image" class="site-logo">
-                        <a href="">
+                        <a href="{{ $company_info['site_url'] }}">
                             {!! $company_info['site_logo'] !!}
                         </a>
                     </div>
