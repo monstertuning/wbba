@@ -168,34 +168,19 @@ $config[] = array(
                     'desc' => __('Type in the fighters achievement', 'cmb2'),
                     'id' => 'achievement',
                     'type' => 'text',
-
                 ),
             ),
         ),
 
-
         array(
-            'name' => 'Current Grade',
-            'desc' => 'Choose Current Grade',
-            'id' => $prefix . 'current_grade',
-            'type' => 'select',
-            'show_option_none' => true,
-            'options' => array(
-                'white_belt' => __('White Belt'),
-                'blue_belt' => __('Blue Belt'),
-                'blue_stripe' => __('Blue Stripe'),
-                'green_stripe' => __('Green Stripe'),
-                'red_belt' => __('Red Belt'),
-                'brown_belt' => __('Brown Belt'),
-                'black_belt' => __('Black Belt'),
-                'black_belt_1st_dan' => __('Black Belt 1st Dan'),
-                'black_belt_2nd_dan' => __('Black Belt 2nd Dan'),
-            ),
-            //'default' => 'white_belt',
-            'select_type' => 'radio',
-            //'sanitization_cb' => 'pw_select2_sanitise',
+            'name'           => 'Current Grade',
+            'desc'           => 'Choose Current Grade',
+            'id'             => $prefix . 'current_grade',
+            'taxonomy'       => 'grade',
+            'type'           => 'taxonomy_select',
+            'remove_default' => 'true'  ,
+            'show_option_none' => true
         ),
-
 
     )
 
