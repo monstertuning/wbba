@@ -1,3 +1,4 @@
+<div class="list-block title"><h2>Featured News</h2></div>
 <div id="home-carousel-news" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
         @foreach( $news_slides as $slide )

@@ -24,6 +24,9 @@ class PageHome extends Controller
         $args = array(
             'posts_per_page' => 5,
             'post_type' => 'news_article',
+            'meta_key'     => '_cmb_news_article_options__cmb_news_article_options_featured',
+            'meta_value'   => 'true',
+            'meta_compare' => '='
         );
 
         $imgAttr =[
@@ -38,6 +41,9 @@ class PageHome extends Controller
 
         if( ! empty( $posts ) ){
             foreach( $posts as $p ){
+
+                $meta = get_post_meta($p->ID);
+
                 if(has_post_thumbnail($p->ID)){
                     $news_slides[$x]['title'] = get_the_title( $p->ID );
                     $news_slides[$x]['link'] = get_permalink( $p->ID );

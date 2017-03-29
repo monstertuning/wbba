@@ -4,7 +4,7 @@
 
     @include('partials.page-header')
 
-    <div>
+    <div class="row">
         @forelse($posts as $post)
             @php(extract($post))
             @unless (empty($post['post_meta']))

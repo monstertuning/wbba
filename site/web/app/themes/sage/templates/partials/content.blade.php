@@ -1,4 +1,4 @@
-<div class="list-item">
+<div class="list-item col-sm-12">
   <a href="{!! $permalink !!}">
     <article class="{!! $post_class !!}">
       @unless (empty($featured_image))
