@@ -11,10 +11,19 @@
     'args':
       'priority': 10,
       'title': 'Company Info'
-      #'description': 'My Description'
+      'description': 'My Description'
 
 
 'sections':
+  - 'section_id': 'company_slogans_section'
+    'args':
+      'title': 'Slogans'
+      'priority': 5
+      #'description': ''
+      'panel': 'company_info_panel'
+      'capability': 'read'
+      'theme_supports': ''
+
   - 'section_id': 'company_address_section'
     'args':
       'title': 'Address'
@@ -52,6 +61,27 @@
 
 
 'fields':
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'slogan1'
+      'label': 'Slogan 1'
+      'section': 'company_slogans_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+      'capability': 'read'
+
+  - 'config_id': 'company_info_config'
+    'args':
+      'settings': 'slogan2'
+      'label': 'Slogan 2'
+      'section': 'company_slogans_section'
+      'type': 'text'
+      'priority': 10
+      'default': ''
+      'capability': 'read'
+
+
   - 'config_id': 'company_info_config'
     'args':
       'settings': 'company_name'

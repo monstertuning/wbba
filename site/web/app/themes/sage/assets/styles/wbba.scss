@@ -16,6 +16,15 @@ p, td, span, div {
   text-shadow: 1px 1px 1px #000000;
 }
 
+body.home{
+  #content{
+    margin-top: $margin-width;
+  }
+  #page-header{
+    display: none;
+  }
+}
+
 .main-wrapper{
   background: rgba(0, 0, 0, 0.65);
 }

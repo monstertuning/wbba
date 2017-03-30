@@ -13,49 +13,37 @@ class PageHome extends Controller
     use Content;
     use LinkPages;
 
-    /**
-     * Return images from Advanced Custom Fields
-     *
-     * @return string
-     */
     public function news_slides()
     {
         $news_slides = [];
         $args = array(
             'posts_per_page' => 5,
             'post_type' => 'news_article',
-            'meta_key'     => '_cmb_news_article_options__cmb_news_article_options_featured',
-            'meta_value'   => 'true',
+            'meta_key' => '_cmb_news_article_options__cmb_news_article_options_featured',
+            'meta_value' => 'true',
             'meta_compare' => '='
         );
 
-        $imgAttr =[
-            'class'=>'d-block img-fluid img-responsive'
+        $imgAttr = [
+            'class' => 'd-block img-fluid img-responsive'
         ];
 
         $posts = get_posts( $args );
-        $data = [];
 
         $x = 0;
         $helpers = new Helpers;
 
         if( ! empty( $posts ) ){
             foreach( $posts as $p ){
-
-                $meta = get_post_meta($p->ID);
-
                 if(has_post_thumbnail($p->ID)){
                     $news_slides[$x]['title'] = get_the_title( $p->ID );
                     $news_slides[$x]['link'] = get_permalink( $p->ID );
                     $news_slides[$x]['image'] = get_the_post_thumbnail( $p->ID, 'square-600', $imgAttr );
-                    #$data[$x]['image'] = get_the_post_thumbnail( $p->ID, array(400, 400), $imgAttr );
-                    #$data[$x]['excerpt'] = get_the_excerpt( $p );
                     $news_slides[$x]['excerpt'] = $helpers->mmcGetExcerptById( $p->ID, 40, 'read more' );
                     $x++;
                 }
             }
         }
-
         return $news_slides;
     }
 

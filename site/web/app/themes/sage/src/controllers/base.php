@@ -127,7 +127,7 @@ class Base extends Controller
 
             $programs2[$x]['image'] = wp_get_attachment_image(
                 $iconId,
-                array( 150, 150),
+                'square-100',
                 false,
                 array( "class" => "img-fluid" )
             );
@@ -168,6 +168,9 @@ class Base extends Controller
         //$data['company_address']['address3'] = $mmcData['address3'];
         $data['company_address']['town_city'] = $mmcData['town_city'];
         $data['company_address']['postcode'] = $mmcData['postcode'];
+
+        $data['slogan1'] = $mmcData['slogan1'];
+        $data['slogan2'] = $mmcData['slogan2'];
 
         $address_str = "";
 
