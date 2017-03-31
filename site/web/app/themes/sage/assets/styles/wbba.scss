@@ -364,25 +364,56 @@ article ul{
   }
 }
 
-.table {
+.post-type-archive-achievement{
+  #content{
+    .row{
+      margin-left: 0;
+      margin-right: 0;
+
+      .name{
+        float: left;
+        padding: 0;
+        
+        >div.wrap{
+
+          background: none repeat scroll 0 0 rgba(180, 186, 205, 0.26);
+          margin-bottom: 2px;
+          padding: 3px 10px;
+          &:nth-child(odd){
+            margin-right: 1px;
+          }
+          &:nth-child(even){
+            margin-left: 1px;
+          }
+        }
+      }
+      .header {
+        background: none repeat scroll 0 0 rgba(180, 186, 205, 0.26);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 8px 15px;
+      }
+    }
+  }
+}
+
+.tableX {
+  width: 100%;
+
   h3{
     color: $color-purple;
     margin-bottom: 0;
   }
-  .row{
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .table-row{
-    &.header {
-      background: none repeat scroll 0 0 rgba(180, 186, 205, 0.26);
-      margin-bottom: 5px;
-      padding: 8px 15px;
-    }
-    .table-cell {
-      background: none repeat scroll 0 0 rgba(180, 186, 205, 0.26);
-      margin-bottom: 2px;
-      padding: 3px 10px;
+
+  .table-rowX{
+    margin: 0;
+
+    .table-cellX {
+
+
+      >div.wrap{
+        padding: 3px 10px;
+      }
     }
   }
 }
