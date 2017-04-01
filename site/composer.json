@@ -269,7 +269,27 @@
           "composer/installers": "~1.0.12"
         }
       }
-    },    {
+    },
+    {
+      "type": "package",
+      "package": {
+
+        "name": "jajouka/medusa_widgets_google_map",
+        "type": "wordpress-plugin",
+        "version": "dev-master",
+        "source": {
+          "type": "git",
+          "url": "git@bitbucket.org:jajouka/medusa_widgets_google_map.git",
+          "reference": "master"
+        },
+        "require": {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+
+
+    {
       "type": "package",
       "package": {
 
@@ -379,6 +399,7 @@
     "jajouka/medusa-content-suite": "@dev",
     "jajouka/medusa-lightbox": "@dev",
     "jajouka/lc-ajax-loader": "@dev",
+    "jajouka/medusa_widgets_google_map": "@dev",
     "stephenharris/Post-Type-Archive-Links": "1.3.1",
     "A5hleyRich/wp-cli-unsplash-command": "@dev",
     "aaemnnosttv/wp-cli-dotenv-command": "1.0.2",

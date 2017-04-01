@@ -4,7 +4,7 @@
 
     @include('partials.page-header')
 
-    <div>index!!
+    <div>
 
         @if (!$posts)
             <div class="alert alert-warning">

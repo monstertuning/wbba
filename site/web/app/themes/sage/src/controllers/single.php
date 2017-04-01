@@ -11,6 +11,7 @@ class Single extends Controller
     use Content;
     use LinkPages;
     use PostClass;
+    use Author;
 
 }
 

@@ -8,9 +8,11 @@ use MedusaContentSuite\CMB\Meta\PostMeta as McsMeta;
 use MedusaContentSuite\Helpers as Helpers;
 use MedusaContentSuite\Config\Menus;
 
-
 class Base extends Controller
 {
+    use CompanyInfo;
+    use Map;
+
     protected $programs = null;
     protected $menu = null;
     protected $companyInfo = null;
@@ -18,10 +20,7 @@ class Base extends Controller
     public function __construct()
     {
         parent::__construct();
-        $this->setCompanyInfo();
     }
-
-
 
 
     /**
@@ -43,17 +42,6 @@ class Base extends Controller
         if(null == $this->menu)
             $this->menu = $this->setMenu();
         return $this->menu;
-    }
-
-
-    /**
-     * @return array
-     */
-    public function company_info()
-    {
-        if(null == $this->companyInfo)
-            $this->companyInfo = $this->setCompanyInfo();
-        return $this->companyInfo;
     }
 
 
@@ -141,52 +129,6 @@ class Base extends Controller
     }
 
 
-    protected function setCompanyInfo()
-    {
-        $attr = array(
-            'class' => 'image img-fluid',
-            'alt'   => 'vvvvvvvvvvv',
-            'title'   => 'vvvvvvvvvvv',
-        );
-
-        $mmcData = get_option('mmc');
-        $headerImgId = attachment_url_to_postid( $mmcData['company_logo'] );
-        $companyBgImgId = attachment_url_to_postid( $mmcData['company_bg_image'] );
-
-        $data['site_logo'] = wp_get_attachment_image( $headerImgId, 'thumb-width-400', false,  $attr );
-        $data['bg_image'] = wp_get_attachment_image_url( $companyBgImgId, '' );
-        $data['social_links'] = $mmcData['social_media_setting'];
-        $data['site_description'] = get_bloginfo('description');
-        $data['site_title'] = get_bloginfo('name');
-        $data['site_url'] = get_bloginfo('url');
-        $data['phone1'] = $mmcData['phone1'];
-        $data['phone2'] = $mmcData['phone2'];
-        $data['email'] = $mmcData['email'];
-        $data['company_name'] = $mmcData['company_name'];
-        $data['company_address']['address1'] = $mmcData['address1'];
-        $data['company_address']['address2'] = $mmcData['address2'];
-        //$data['company_address']['address3'] = $mmcData['address3'];
-        $data['company_address']['town_city'] = $mmcData['town_city'];
-        $data['company_address']['postcode'] = $mmcData['postcode'];
-
-        $data['slogan1'] = $mmcData['slogan1'];
-        $data['slogan2'] = $mmcData['slogan2'];
-
-        $address_str = "";
-
-        foreach( $data['company_address'] as $ca ) :
-            if( ! empty( $ca ) ) :
-                $address_str .= $ca . ', ';
-            endif;
-        endforeach;
-
-        $address_str = substr( $address_str, 0, strlen( $address_str ) -2 );
-        $address_str .= ' Tel: ' . $data['phone1'];
-        $data['address_str'] = $address_str;
-
-        return $data;
-    }
-
 
     protected function getMcsGlobals()
     {
@@ -198,4 +140,5 @@ class Base extends Controller
     {
         return new Helpers;
     }
+
 }
