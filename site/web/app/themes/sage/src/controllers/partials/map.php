@@ -8,26 +8,16 @@ trait Map
 {
     //use CompanyInfo;
 
-
     public function google_map()
     {
-
-        //$a = new CompanyInfo;
-        //$b = $a->company_info();
-
         $address = Common::getAddress();
-        $addressString = Common::getAddressString($address);
 
-        $marker = Common::getLatLong($addressString);
-
+        $marker = Common::getLatLong(Common::getAddressString($address, false));
+        $marker['address'] = Common::getAddressString($address, true);
+        $marker['link'] = "https://www.google.com/maps?q=loc:" . $marker['lat'] . ',' . $marker['lng'];
+        $marker['title'] = "See on Google Maps";
         $markers = [
-            /*[
-                "lat" => "52.6041155",
-                "lng" => "-1.0829533"
-            ]*/
-
             $marker
-
         ];
 
         $instance = array (

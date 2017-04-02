@@ -9,8 +9,8 @@ trait CompanyInfo
     {
         $attr = array(
             'class' => 'image img-fluid',
-            'alt'   => 'vvvvvvvvvvv',
-            'title'   => 'vvvvvvvvvvv',
+            'alt'   => get_bloginfo('name'),
+            'title'   =>  get_bloginfo('name'),
         );
 
         $mmcData = get_option('mmc');
@@ -32,7 +32,7 @@ trait CompanyInfo
         $data['slogan1'] = $mmcData['slogan1'];
         $data['slogan2'] = $mmcData['slogan2'];
 
-        $data['address_str'] = Common::getAddressString($data['company_address']) . ' Tel: ' . $data['phone1'];
+        $data['address_str'] = Common::getAddressString($data['company_address'], false) . ' Tel: ' . $data['phone1'];
 
         return $data;
     }
