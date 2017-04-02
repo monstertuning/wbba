@@ -45,4 +45,9 @@
   textarea{
     height: 240px;
   }
+  input[type=submit]{
+    background-color: $color-grey !important;
+    box-shadow: none !important;
+
+  }
 }

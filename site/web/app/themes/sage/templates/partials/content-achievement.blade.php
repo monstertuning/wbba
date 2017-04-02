@@ -3,14 +3,18 @@
         <h3>{{$post_title}}</h3>
     </div>
 
-    @foreach($names as $k => $name)
+    @if ($names)
+        @foreach($names as $k => $name)
 
-        <div class="table-cellX col-sm-6 text-xs-center name">
-            <div class="wrap">
-                {{$name['name']}}
+            <div class="table-cellX col-sm-6 text-xs-center name">
+                <div class="wrap">
+                    {{$name['name']}}
+                </div>
             </div>
-        </div>
 
-    @endforeach
+        @endforeach
+    @else
+        <i>No names set for this achievement</i>
+    @endif
 
 </div>
