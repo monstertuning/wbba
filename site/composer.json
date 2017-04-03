@@ -382,7 +382,22 @@
         }
 
       }
-    }
+    },
+    {
+      "type": "package",
+      "package": {
+
+        "name": "jajouka/sage-wbba",
+        "type": "wordpress-theme",
+        "version": "dev-master",
+        "source": {
+          "type": "git",
+          "url": "git@bitbucket.org:jajouka/sage-wbba.git",
+          "reference": "master"
+        }
+
+      }
+    },
 
   ],
 
