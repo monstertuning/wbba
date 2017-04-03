@@ -411,6 +411,7 @@
     "oscarotero/env": "1.0",
     "WebDevStudios/CMB2-Date-Range-Field": "*",
     "jajouka/medusa-content-suite": "@dev",
+    "jajouka/sage-wbba": "@dev",
     "jajouka/medusa-lightbox": "@dev",
     "jajouka/lc-ajax-loader": "@dev",
     "jajouka/medusa_widgets_google_map": "@dev",
