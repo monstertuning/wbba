@@ -26,6 +26,7 @@ trait Map
             'height' => '400',
             'width' => '400',
             'markers' => $markers,
+            'api_key' => 'AIzaSyDDIw3cfhcVLyAd4rUNgR_GO2OfLcdrq8k',
         );
 
         $output = Common::getTheWidget('Medusa_Widgets_Google_Map', $instance);
