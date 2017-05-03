@@ -1,6 +1,5 @@
 # Add each host to the [staging] group and to a "type" group such as [web] or [db].
 # List each machine only once per [group], even if it will host multiple sites.
-walsallkickboxing.co.uk ansible_host=138.68.131.10 ansible_ssh_private_key_file='~/.ssh/id_rsa'
 
 [staging]
 walsallkickboxing.co.uk

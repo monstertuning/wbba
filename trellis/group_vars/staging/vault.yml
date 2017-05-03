@@ -4,8 +4,8 @@ vault_mysql_root_password: stagingpw
 # Documentation: https://roots.io/trellis/docs/security/
 vault_users:
   - name: "{{ admin_user }}"
-    password: "vP51UW53g1KXn0644LF06M536c70a6E4NY14MJ970UbMfc"
-    salt: "generateme"
+    password: "medusapass"
+    salt: ""
 
 # Variables to accompany `group_vars/staging/wordpress_sites.yml`
 # Note: the site name (`example.com`) must match up with the site name in the above file.
@@ -14,11 +14,11 @@ vault_wordpress_sites:
     env:
       db_password: "i1SKr7L74VHF8iP5s86777830995m84ULd82kd41MSS2I"
       # Generate your keys here: https://roots.io/salts.html
-      auth_key: "$dnHd+|:b?,G7pZ3yL,WH5]7f[#==8w]`,[e:bpHvcU!]:VCby%A|<2t8SbkSBRd"
-      secure_auth_key: "hji]c]=I#NO:zqrB&O)CJ3$8]SVk^e*wG1(2)$N4n%TkQDcQYmu2gx8WC>FbdJ.B"
-      logged_in_key: "x8DN|Q;d#Yv9vVBZE(Z}euR7;^0K!V?h!O5=SDH|;4>-@gy5h*II{-ZzhB[_f[c5"
-      nonce_key: "U&0UY^Q%^<OuQ3HGr0f8wWxkJ[DmaiA9KUfeAImtSQJ{)*v%[K8W9CmFGK;basi#"
-      auth_salt: "*I=>q4/Vyp_lHZl#A(4Sv^}2cbw).[r3(eJ{t5sZj>@5F6tj<QHDg7x;Rq!yfT28"
-      secure_auth_salt: "JZBk&=bBPA;gL0k:w=$AiuqUiY_@7%3qz<JTVi8ab*/!E*mBd!eDWWmrTt|4:4jm"
-      logged_in_salt: "bZvAku8I?-jpf]uFNSK%#U&GjP9+s^W!LG,avrnTQ_iWx7{quG[3b{+{qRoK]Dzg"
-      nonce_salt: "KsP%W(gKB^EybFte&}j[5=xc/L9j{iBgKpgbFJLY=6y&`+voVUrQ{o+;1OLmtp!{"
+      auth_key: "generateme"
+      secure_auth_key: "generateme"
+      logged_in_key: "generateme"
+      nonce_key: "generateme"
+      auth_salt: "generateme"
+      secure_auth_salt: "generateme"
+      logged_in_salt: "generateme"
+      nonce_salt: "generateme"
