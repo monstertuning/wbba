@@ -6,12 +6,11 @@ wordpress_sites:
   walsallkickboxing.co.uk:
     site_hosts:
       - canonical: walsallkickboxing.co.uk
-        #redirects:
-          #- www.walsallkickboxing.co.uk
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:monstertuning/wbba.git # replace with your Git repo URL
-    repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
+    local_path: ../site
+    repo: git@github.com:monstertuning/wbba.git
+    repo_subtree_path: site
     branch: master
+    www_redirect: false
     multisite:
       enabled: false
     ssl:
